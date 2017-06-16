@@ -26,8 +26,6 @@ app.use(express.static(path.join(__dirname, 'client')));
 
 
 app.use('/', index);
-app.use('/index', index);
-app.use('/index.html', index);
 
 // app.use('/users', users);
 
