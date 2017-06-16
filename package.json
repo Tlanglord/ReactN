@@ -5,7 +5,7 @@
   "scripts": {
     "start": "node ./bin/www",
     "build": "webpack --progress --colors",
-    "wpkw": "webpack --watch",
+    "wpkw": "webpack --watch --hot",
     "clean": "rimraf dist/*"
   },
   "dependencies": {

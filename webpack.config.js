@@ -10,7 +10,7 @@ module.exports = {
     },
     // 入口文件输出配置
     output: {
-        path: __dirname + '/client/build/',
+        path: __dirname+ '/client/build/',
         filename: '[name].bundle.js'
     },
     module: {
