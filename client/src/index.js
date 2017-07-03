@@ -3,10 +3,10 @@
  */
 import React from 'react'
 import ReactDOM from 'react-dom'
-import Search from './js/com/search'
+import Home from './js/com/home'
 
 ReactDOM.render(
-    <Search />,
+    <Home />,
     document.getElementById('app')
 );
 
