@@ -2,7 +2,7 @@
  * Created by dongqiangqiang on 2017/6/16.
  */
 import React from 'react';
-import "../../css/search.css"
+import "../css/search.css"
 
 class Search extends React.Component {
 
