@@ -4,7 +4,7 @@
 
 import React from 'react';
 import Footer from 'footer';
-import Restaurant from 'client/src/js/com/restaurant';
+import RestaurantList from 'client/src/js/com/restaurantlist';
 import Search from 'search';
 
 

@@ -15,5 +15,4 @@ class RestaurantList extends React.createClass {
         return <div>rs</div>;
     }
 }
-
 export default RestaurantList;
