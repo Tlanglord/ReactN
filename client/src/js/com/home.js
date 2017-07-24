@@ -4,7 +4,7 @@
 
 import React from 'react';
 import Footer from 'footer';
-import ProductDeatilsItem from 'productdetailsitem';
+import Restaurant from 'client/src/js/com/restaurant';
 import Search from 'search';
 
 
@@ -12,7 +12,7 @@ class Home extends React.createClass {
     render() {
         return <div>
             <Search/>
-            <ProductDeatilsItem/>
+            <Restaurant/>
             <Footer/>
         </div>
     }

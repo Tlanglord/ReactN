@@ -3,11 +3,11 @@
  */
 import React from "react";
 
-class ProductDetailsItem extends React.createClass{
+class Restaurant extends React.createClass{
 
     render() {
         return <div>item</div>;
     }
 }
 
-export default ProductDetailsItem;
+export default Restaurant;
