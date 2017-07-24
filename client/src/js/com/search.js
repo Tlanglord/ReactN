@@ -7,7 +7,7 @@ import "../css/search.css"
 class Search extends React.Component {
 
     render() {
-        return <div className="container" style={{textAlign:"center", lineHeight:"600px"}} >
+        return <div className="container" >
            <div className="kobe"></div>
         </div>;
     }

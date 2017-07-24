@@ -3,17 +3,17 @@
  */
 
 import React from 'react';
-import Footer from 'footer';
-import RestaurantList from 'client/src/js/com/restaurantlist';
-import Search from 'search';
+import Footer from './footer';
+import RestaurantList from './restaurantlist';
+import Search from './search';
 
 
-class Home extends React.createClass {
+class Home extends React.Component {
     render() {
         return <div>
-            <Search/>
-            <Restaurant/>
-            <Footer/>
+            {/*<Search />*/}
+            <RestaurantList />
+            <Footer />
         </div>
     }
 }
