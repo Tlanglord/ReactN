@@ -27,6 +27,14 @@ app.use(express.static(path.join(__dirname, '../client')));
 
 app.use('/', index);
 
+// 新增接口路由
+app.get('/data/:module', function (req, res, next) {
+    var c_path = req.params.module;
+    console.log(c_path)
+    var action = require('./test/test');
+    action.execute(req, res);
+});
+
 // app.use('/users', users);
 
 // catch 404 and forward to error handler
@@ -35,8 +43,8 @@ app.use('/', index);
 //     err.status = 404;
 //     next(err);
 // });
-
-// error handler
+//
+// // error handler
 // app.use(function (err, req, res, next) {
 //     // set locals, only providing error in development
 //     res.locals.message = err.message;
@@ -46,5 +54,6 @@ app.use('/', index);
 //     res.status(err.status || 500);
 //     res.render('error');
 // });
+
 
 module.exports = app;
