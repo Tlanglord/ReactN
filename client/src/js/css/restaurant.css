@@ -2,9 +2,6 @@
     width: 242px;
     height: 288px;
 }
-.fl {
-    float: left;
-}
 
 .restaurant .rest-atag {
     display: block;
@@ -16,27 +13,22 @@
     height: 250px;
 }
 
-div {
-    display: block;
-}
-
-
-div {
-    display: block;
-}
 a:-webkit-any-link {
     color: -webkit-link;
     cursor: auto;
     text-decoration: underline;
 }
+
 li {
     display: list-item;
     text-align: -webkit-match-parent;
 }
+
 ol, ul {
     padding-left: 0;
     list-style-type: none;
 }
+
 ul, menu, dir {
     display: block;
     list-style-type: disc;
@@ -45,11 +37,6 @@ ul, menu, dir {
     -webkit-margin-start: 0px;
     -webkit-margin-end: 0px;
     -webkit-padding-start: 40px;
-}
-body {
-    font: 12px/1.125 Microsoft Yahei,Arial,Helvetica,sans-serif;
-    background: #fff;
-    line-height: 1.4;
 }
 
 .restaurant .preview img {
@@ -87,6 +74,7 @@ body {
 .restaurant .rank {
     margin: 10px 0 8px;
 }
+
 .clearfix, .search-box .result-right li {
     zoom: 1;
 }
@@ -106,6 +94,7 @@ body {
     max-width: 60px;
     margin-right: 15px;
 }
+
 .restaurant .price {
     color: #707070;
 }
@@ -124,6 +113,6 @@ body {
     background-position: -272px -426px;
 }
 
-.clear {
-    clear: both;
+.imgsort-wrapper, .notice, .rest-list, .rest-outer, .restaurant .others {
+    overflow: hidden;
 }

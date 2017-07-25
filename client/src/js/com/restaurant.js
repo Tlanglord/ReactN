@@ -3,10 +3,11 @@
  */
 import React from "react";
 import '../css/restaurant.css'
+import '../css/common.css'
 class Restaurant extends React.Component {
     render() {
         return <li className="fl rest-li">
-            <a>
+            <a >
                 <div>
                     <div >
                         <img

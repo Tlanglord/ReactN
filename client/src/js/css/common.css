@@ -1,0 +1,22 @@
+.fl {
+    float: left;
+}
+
+div {
+    display: block;
+}
+
+body {
+    font: 12px/1.125 Microsoft Yahei, Arial, Helvetica, sans-serif;
+    background: #fff;
+    line-height: 1.4;
+}
+
+.clear {
+    clear: both;
+}
+
+.page-wrap .inner-wrap {
+    width: 980px;
+    margin: 0 auto;
+}

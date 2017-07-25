@@ -3,6 +3,7 @@
  */
 import React from "react";
 import Restaurant from './restaurant';
+import '../css/restaurantlist.css'
 
 class RestaurantList extends React.Component {
 
@@ -11,7 +12,7 @@ class RestaurantList extends React.Component {
         for (let i = 0; i < 20; i++) {
             rs.push(<Restaurant/>);
         }
-        return <div>
+        return <div className="page-wrap">
             <ul>{rs}</ul>
         </div>;
     }
