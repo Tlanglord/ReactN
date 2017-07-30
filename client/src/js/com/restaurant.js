@@ -8,7 +8,7 @@ class Restaurant extends React.Component {
     render() {
         return <li className="fl rest-li">
             <a >
-                <div>
+                <div className="restaurant-box">
                     <div >
                         <img
                             src="http://p1.meituan.net/xianfu/1c74dbc03cd9f71b5fa1ac257d54afbc126487.jpg"/>

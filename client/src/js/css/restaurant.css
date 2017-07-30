@@ -116,3 +116,6 @@ ul, menu, dir {
 .imgsort-wrapper, .notice, .rest-list, .rest-outer, .restaurant .others {
     overflow: hidden;
 }
+.restaurant-box{
+    /*padding: 15px;*/
+}
