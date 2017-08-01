@@ -7,8 +7,7 @@ import React from 'react';
 
 class Footer extends React.Component {
     render() {
-        return <div>rwar</div>;
+        return <div>this is footer 12222222222111111111</div>;
     }
 }
-
 export default Footer;

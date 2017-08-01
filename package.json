@@ -4,8 +4,9 @@
   "private": true,
   "scripts": {
     "start": "node ./bin/www",
-    "build": "webpack --progress --colors",
-    "wpkw": "webpack --watch --hot",
+    "build": "webpack --progress --watch --hot --colors",
+    "dev": "webpack --config webpack.dev.config.js  --devtool eval --progress --colors  --watch",
+    "dev-server": "webpack-dev-server --config webpack.dev.config.js  --devtool eval --progress --colors  --watch --open",
     "clean": "rimraf dist/*"
   },
   "dependencies": {
@@ -25,7 +26,8 @@
     "react-dom": "^15.6.1",
     "serve-favicon": "~2.4.2",
     "style-loader": "^0.18.2",
-    "webpack": "^2.6.1"
+    "webpack": "^2.6.1",
+    "html-webpack-plugin": "^2.0.0"
   },
   "description": "react node ",
   "main": "app.js",

@@ -10,6 +10,11 @@ var users = require('./routes/users');
 var ejs = require('ejs');
 var app = express();
 
+var webpack = require('webpack'),
+    webpackDevMiddleware = require('webpack-dev-middleware'),
+    webpackHotMiddleware = require('webpack-hot-middleware'),
+    webpackDevConfig = require('./webpack.config.js');
+
 // view engine setup
 // app.set('views', path.join(__dirname, 'client/'));
 app.set('views', path.join(__dirname, '../client/view'));
