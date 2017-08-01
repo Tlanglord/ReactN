@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "start": "node ./bin/www",
+    "start": "node ./bin/www NODE_EVN=dev",
     "build": "webpack --progress --watch --hot --colors",
     "dev": "webpack --config webpack.dev.config.js  --devtool eval --progress --colors  --watch",
     "dev-server": "webpack-dev-server --config webpack.dev.config.js  --devtool eval --progress --colors  --watch --open",

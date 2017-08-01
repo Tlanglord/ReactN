@@ -10,10 +10,10 @@ var users = require('./routes/users');
 var ejs = require('ejs');
 var app = express();
 
-var webpack = require('webpack'),
-    webpackDevMiddleware = require('webpack-dev-middleware'),
-    webpackHotMiddleware = require('webpack-hot-middleware'),
-    webpackDevConfig = require('./webpack.config.js');
+// var webpack = require('webpack'),
+//     webpackDevMiddleware = require('webpack-dev-middleware'),
+//     webpackHotMiddleware = require('webpack-hot-middleware'),
+//     webpackDevConfig = require('./webpack.config.js');
 
 // view engine setup
 // app.set('views', path.join(__dirname, 'client/'));
@@ -37,7 +37,9 @@ app.get('/data/:module', function (req, res, next) {
     var c_path = req.params.module;
     console.log(c_path)
     var action = require('./test/test');
+    console.log("env"+ process.env.NODE_ENV);
     action.execute(req, res);
+
 });
 
 // app.use('/users', users);
