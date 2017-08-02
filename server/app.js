@@ -10,13 +10,12 @@ var users = require('./routes/users');
 var ejs = require('ejs');
 var app = express();
 
-// var webpack = require('webpack'),
-//     webpackDevMiddleware = require('webpack-dev-middleware'),
-//     webpackHotMiddleware = require('webpack-hot-middleware'),
-//     webpackDevConfig = require('./webpack.config.js');
+
+
+var NODE_ENV = process.env.NODE_ENV || 'production';
+var isDev = NODE_ENV === 'development';
 
 // view engine setup
-// app.set('views', path.join(__dirname, 'client/'));
 app.set('views', path.join(__dirname, '../client/view'));
 app.set('view engine', 'html');
 app.engine('html', ejs.renderFile);
@@ -25,11 +24,43 @@ app.use(express.static(path.join(__dirname, '../client')));
 // uncomment after placing your favicon in /public
 //app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')));
 // app.use(logger('dev'));
-// app.use(bodyParser.json());
-// app.use(bodyParser.urlencoded({ extended: false }));
-// app.use(cookieParser());
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({ extended: false }));
+app.use(cookieParser());
 
 
+if(isDev){
+    var webpack = require('webpack'),
+        webpackDevMiddleware = require('webpack-dev-middleware'),
+        webpackHotMiddleware = require('webpack-hot-middleware'),
+        webpackDevConfig = require('./webpack.config.js');
+    var compiler = webpack(webpackDevConfig);
+
+    app.use(webpackDevMiddleware(compiler, {
+        publicPath: webpackDevConfig.output.publicPath,
+        noInfo: true,
+        stats: {
+            colors: true
+        }
+    }));
+
+    app.use(webpackHotMiddleware(compiler));
+
+    routerConfig(app, {
+        dirPath: __dirname + '/server/routes/',
+        map: {
+            'index': '/',
+            'api': '/api/*',
+            'proxy': '/proxy/*'
+        }
+    });
+
+    var reload = require('reload');
+}
+
+
+
+/***************************************************** 路由开始**************************************************************/
 app.use('/', index);
 
 // 新增接口路由
@@ -41,6 +72,9 @@ app.get('/data/:module', function (req, res, next) {
     action.execute(req, res);
 
 });
+
+
+
 
 // app.use('/users', users);
 
@@ -62,5 +96,5 @@ app.get('/data/:module', function (req, res, next) {
 //     res.render('error');
 // });
 
-
+/***************************************************** 路由结束**************************************************************/
 module.exports = app;
