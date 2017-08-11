@@ -8,6 +8,9 @@ import Home from './js/com/home'
 ReactDOM.render(
     <Home />,
     document.getElementById('app')
+	
+	
+	
 );
 
  

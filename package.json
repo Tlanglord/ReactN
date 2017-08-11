@@ -6,7 +6,7 @@
     "start": "node ./bin/www NODE_EVN=dev",
     "build": "webpack --progress --watch --hot --colors",
     "dev": "webpack --config webpack.dev.config.js  --devtool eval --progress --colors  --watch",
-    "dev-server": "webpack-dev-server --config webpack.dev.config.js  --devtool eval --progress --colors  --watch --open",
+    "dev-server": "webpack-dev-server --config webpack.dev.config.js  --devtool eval --progress --host 192.168.110.187 --port 3000 --colors  --watch --open",
     "clean": "rimraf dist/*"
   },
   "dependencies": {
@@ -14,6 +14,7 @@
     "babel-loader": "^7.0.0",
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-react": "^6.24.1",
+    "bluebird": "^3.5.0",
     "body-parser": "~1.17.1",
     "cookie-parser": "~1.4.3",
     "css-loader": "^0.28.4",

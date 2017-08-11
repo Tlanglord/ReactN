@@ -15,7 +15,7 @@ class Home extends React.Component {
             <ResList/>
             {/*<Search />*/}
             {/*<RestaurantList />*/}
-            <Footer />
+            {/*<Footer />*/}
         </div>
     }
 }
