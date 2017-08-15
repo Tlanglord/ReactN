@@ -2,7 +2,7 @@
  * Created by dongqiangqiang on 2017/7/3.
  */
 import React from "react";
-import Restaurant from './restaurant';
+import Restaurant from './Restaurant';
 import '../css/restaurantlist.css'
 
 class RestaurantList extends React.Component {

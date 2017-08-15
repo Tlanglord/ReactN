@@ -1,0 +1,45 @@
+.footer-container {
+    margin-top: 20px;
+    background-color: #FFFFFF;
+    width: 100%;
+    text-align: center;
+}
+
+.ft-w {
+    width: 980px;
+    margin: 0 auto;
+    display: inline-block;
+}
+
+.ft-ul {
+    list-style-type: none;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.ft-ul > li {
+    line-height: 30px;
+}
+
+.dashed-line {
+    border-right: dashed #cfcfcf 1px;
+}
+
+.ft-s {
+    margin-left: 100px;
+    margin-top: 20px;
+    padding-right: 100px;
+}
+
+.ft-qr{
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+.ft-qrcode {
+    width: 100px;
+    height: 100px;
+    background: url(http://xs01.meituan.net/waimai_web/img/new/qrcode.png) no-repeat;
+    background-size: 100px 100px;
+    margin-right: 25px;
+}

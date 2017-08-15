@@ -3,7 +3,7 @@
  */
 import React from 'react'
 import ReactDOM from 'react-dom'
-import Home from './js/com/home'
+import Home from './js/com/Home'
 
 ReactDOM.render(
     <Home />,

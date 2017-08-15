@@ -5,7 +5,7 @@
   "scripts": {
     "start": "node ./bin/www NODE_EVN=dev",
     "build": "webpack --progress --watch --hot --colors",
-    "dev": "webpack --config webpack.dev.config.js  --devtool eval --progress --colors  --watch",
+    "dev": "webpack --config webpack.dev.config.js  --devtool eval --progress --colors --watch",
     "dev-server": "webpack-dev-server --config webpack.dev.config.js  --devtool eval --progress --colors  --watch --open",
     "clean": "rimraf dist/*"
   },
@@ -20,6 +20,7 @@
     "debug": "~2.6.3",
     "ejs": "~2.5.6",
     "express": "~4.15.2",
+    "html-webpack-plugin": "^2.0.0",
     "jsx-loader": "^0.13.2",
     "morgan": "~1.8.1",
     "react": "^15.6.1",
@@ -27,7 +28,7 @@
     "serve-favicon": "~2.4.2",
     "style-loader": "^0.18.2",
     "webpack": "^2.6.1",
-    "html-webpack-plugin": "^2.0.0"
+    "webpack-dev-server": "^2.6.1"
   },
   "description": "react node ",
   "main": "app.js",

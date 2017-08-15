@@ -1,8 +1,9 @@
 .resItem-box{
     text-align: center;
     width: 225px;
-    height: 288px;
+    /*height: 288px;*/
     padding: 10px;
+    display: inline-block;
 }
 
 .timer-icon{

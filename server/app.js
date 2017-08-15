@@ -61,6 +61,10 @@ app.get('/data/:module', function (req, res, next) {
 //     res.status(err.status || 500);
 //     res.render('error');
 // });
-
+app.get("*.hot-update.*", function (req, res, next) {
+    console.log(req.path);
+    // var hot = 'E:/webstorm/ReactN/client/build/'+ req.path;
+    // res.sendFile(hot);
+})
 
 module.exports = app;
