@@ -21,9 +21,18 @@ app.set('port', port);
 
 var server = http.createServer(app);
 
+
 /**
  * Listen on provided port, on all network interfaces.
  */
+
+var NODE_ENV = process.env.NODE_ENV || 'production';
+var isDev = NODE_ENV === 'development';
+
+if(isDev){
+    var reload = require('reload');
+    reload(server,app);
+}
 
 server.listen(port);
 server.on('error', onError);
