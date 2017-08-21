@@ -13,8 +13,8 @@
 
 .ft-ul {
     list-style-type: none;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-right: 70px;
+    margin-top: 20px;
 }
 
 .ft-ul > li {

@@ -1,9 +1,9 @@
 .resItem-box{
-    text-align: center;
-    width: 225px;
+    /*text-align: center;*/
+    width: 242px;
     /*height: 288px;*/
-    padding: 10px;
-    display: inline-block;
+    /*padding: 10px;*/
+    /*display: inline-block;*/
 }
 
 .timer-icon{
@@ -28,4 +28,13 @@
 .resItem-content{
     width: 210px;
     height: 250px;
+    padding: 20px 16px 0;
+}
+.res-name{
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.label-style{
+    line-height: 30px;
 }

@@ -1,0 +1,11 @@
+.rs-f-container {
+    margin-top: 20px;
+    background-color: #FFFFFF;
+    height: 100px;
+    width: 980px;
+    display:flex;
+    align-items: center;
+}
+.rs-f-tab{
+    margin-left: 20px;
+}
