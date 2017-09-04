@@ -7,7 +7,7 @@ import '../css/topnav.css'
 
 class TopNav extends React.Component {
     render() {
-        return <div className="top-container">location</div>
+        return <div className="top-container">oooo</div>
     }
 }
 

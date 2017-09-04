@@ -4,11 +4,14 @@ var favicon = require('serve-favicon');
 var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
+var fs = require('fs');
 
 var index = require('./routes/index');
 var users = require('./routes/users');
 var ejs = require('ejs');
 var app = express();
+
+var apiConfig = require('./api/apiConfig');
 
 // var webpack = require('webpack'),
 //     webpackDevMiddleware = require('webpack-dev-middleware'),
@@ -24,12 +27,13 @@ app.use(express.static(path.join(__dirname, '../client')));
 
 // uncomment after placing your favicon in /public
 //app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')));
-// app.use(logger('dev'));
-// app.use(bodyParser.json());
-// app.use(bodyParser.urlencoded({ extended: false }));
-// app.use(cookieParser());
+app.use(logger('dev'));
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({ extended: false }));
+app.use(cookieParser());
 
 
+apiConfig.config(app);
 app.use('/', index);
 
 // 新增接口路由
@@ -37,12 +41,11 @@ app.get('/data/:module', function (req, res, next) {
     var c_path = req.params.module;
     console.log(c_path)
     var action = require('./test/test');
-    console.log("env"+ process.env.NODE_ENV);
+    console.log("env" + process.env.NODE_ENV);
     action.execute(req, res);
-
 });
 
-// app.use('/users', users);
+
 
 // catch 404 and forward to error handler
 // app.use(function (req, res, next) {

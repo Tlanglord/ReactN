@@ -13,11 +13,15 @@ import "../css/resItem.css";
 
 export default class ResItem extends Component {
     render() {
+        const {poi} = this.props;
+
+        debugger
         return (
             <li className="resItem-box">
                 <div className="resItem-content">
-                    <img className="res-img" src="http://p1.meituan.net/xianfu/1c74dbc03cd9f71b5fa1ac257d54afbc126487.jpg"/>
-                    <div className="res-name label-style">东北家常菜（望京分店）</div>
+                    <img className="res-img"
+                         src="http://p1.meituan.net/xianfu/1c74dbc03cd9f71b5fa1ac257d54afbc126487.jpg"/>
+                    <div className="res-name label-style">{poi.name}</div>
                     <div>评分</div>
                     <div className="resItem-bottom">
                         <div className="label-style">起送 ￥20</div>
@@ -25,7 +29,6 @@ export default class ResItem extends Component {
                         <div className="label-style"><i className="timer-icon"></i>30分钟</div>
                     </div>
                 </div>
-
             </li>
         );
     }

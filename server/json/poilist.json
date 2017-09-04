@@ -1,0 +1,398 @@
+{
+  "code": 0,
+  "msg": "调用成功",
+  "data": {
+    "poiList": [
+      {
+        "poiId": 100948939399393,
+        "name": "重庆小面",
+        "picUrl": "http: //img.test.com/test.png",
+        "star": 4.5,
+        "deliveryTime": 40,
+        "shippingTime": "20:30-20:50",
+        "expressFee": 5,
+        "min_price": 20
+      },
+      {
+        "poiId": 100948939399393,
+        "name": "7-11",
+        "picUrl": "http: //img.test.com/test.png",
+        "star": 4.5,
+        "deliveryTime": 40,
+        "shippingTime": "20:30-20:50",
+        "expressFee": 5,
+        "min_price": 20
+      },
+      {
+        "poiId": 100948939399393,
+        "name": "田师傅红烧肉",
+        "picUrl": "http: //img.test.com/test.png",
+        "star": 4.5,
+        "deliveryTime": 40,
+        "shippingTime": "20:30-20:50",
+        "expressFee": 5,
+        "min_price": 20
+      },
+      {
+        "poiId": 100948939399393,
+        "name": "李先生",
+        "picUrl": "http: //img.test.com/test.png",
+        "star": 4.5,
+        "deliveryTime": 40,
+        "shippingTime": "20:30-20:50",
+        "expressFee": 5,
+        "min_price": 20
+      },
+      {
+        "poiId": 100948939399393,
+        "name": "绝味鸭脖",
+        "picUrl": "http: //img.test.com/test.png",
+        "star": 4.5,
+        "deliveryTime": 40,
+        "shippingTime": "20:30-20:50",
+        "expressFee": 5,
+        "min_price": 20
+      },
+      {
+        "poiId": 100948939399393,
+        "name": "吉野家",
+        "picUrl": "http: //img.test.com/test.png",
+        "star": 4.5,
+        "deliveryTime": 40,
+        "shippingTime": "20:30-20:50",
+        "expressFee": 5,
+        "min_price": 20
+      },
+      {
+        "poiId": 100948939399393,
+        "name": "汉堡王",
+        "picUrl": "http: //img.test.com/test.png",
+        "star": 4.5,
+        "deliveryTime": 40,
+        "shippingTime": "20:30-20:50",
+        "expressFee": 5,
+        "min_price": 20
+      },
+      {
+        "poiId": 100948939399393,
+        "name": "一碗汤面",
+        "picUrl": "http: //img.test.com/test.png",
+        "star": 4.5,
+        "deliveryTime": 40,
+        "shippingTime": "20:30-20:50",
+        "expressFee": 5,
+        "min_price": 20
+      },
+      {
+        "poiId": 100948939399393,
+        "name": "好利来",
+        "picUrl": "http: //img.test.com/test.png",
+        "star": 4.5,
+        "deliveryTime": 40,
+        "shippingTime": "20:30-20:50",
+        "expressFee": 5,
+        "min_price": 20
+      },
+      {
+        "poiId": 100948939399393,
+        "name": "全时便利店",
+        "picUrl": "http: //img.test.com/test.png",
+        "star": 4.5,
+        "deliveryTime": 40,
+        "shippingTime": "20:30-20:50",
+        "expressFee": 5,
+        "min_price": 20
+      },
+      {
+        "poiId": 100948939399393,
+        "name": "Ueater 365",
+        "picUrl": "http: //img.test.com/test.png",
+        "star": 4.5,
+        "deliveryTime": 40,
+        "shippingTime": "20:30-20:50",
+        "expressFee": 5,
+        "min_price": 20
+      },
+      {
+        "poiId": 100948939399393,
+        "name": "焦耳外卖",
+        "picUrl": "http: //img.test.com/test.png",
+        "star": 4.5,
+        "deliveryTime": 40,
+        "shippingTime": "20:30-20:50",
+        "expressFee": 5,
+        "min_price": 20
+      },
+      {
+        "poiId": 100948939399393,
+        "name": "合利屋",
+        "picUrl": "http: //img.test.com/test.png",
+        "star": 4.5,
+        "deliveryTime": 40,
+        "shippingTime": "20:30-20:50",
+        "expressFee": 5,
+        "min_price": 20
+      },
+      {
+        "poiId": 100948939399393,
+        "name": "东北石锅饭",
+        "picUrl": "http: //img.test.com/test.png",
+        "star": 4.5,
+        "deliveryTime": 40,
+        "shippingTime": "20:30-20:50",
+        "expressFee": 5,
+        "min_price": 20
+      },
+      {
+        "poiId": 100948939399393,
+        "name": "麻辣香锅",
+        "picUrl": "http: //img.test.com/test.png",
+        "star": 4.5,
+        "deliveryTime": 40,
+        "shippingTime": "20:30-20:50",
+        "expressFee": 5,
+        "min_price": 20
+      },
+      {
+        "poiId": 100948939399393,
+        "name": "黄焖鸡",
+        "picUrl": "http: //img.test.com/test.png",
+        "star": 4.5,
+        "deliveryTime": 40,
+        "shippingTime": "20:30-20:50",
+        "expressFee": 5,
+        "min_price": 20
+      },
+      {
+        "poiId": 100948939399393,
+        "name": "麦当劳",
+        "picUrl": "http: //img.test.com/test.png",
+        "star": 4.5,
+        "deliveryTime": 40,
+        "shippingTime": "20:30-20:50",
+        "expressFee": 5,
+        "min_price": 20
+      },
+      {
+        "poiId": 100948939399393,
+        "name": "三泉冷面",
+        "picUrl": "http: //img.test.com/test.png",
+        "star": 4.5,
+        "deliveryTime": 40,
+        "shippingTime": "20:30-20:50",
+        "expressFee": 5,
+        "min_price": 20
+      },
+      {
+        "poiId": 100948939399393,
+        "name": "Rest Food",
+        "picUrl": "http: //img.test.com/test.png",
+        "star": 4.5,
+        "deliveryTime": 40,
+        "shippingTime": "20:30-20:50",
+        "expressFee": 5,
+        "min_price": 20
+      },
+      {
+        "poiId": 100948939399393,
+        "name": "肯德基（来广营店）",
+        "picUrl": "http: //img.test.com/test.png",
+        "star": 4.5,
+        "deliveryTime": 40,
+        "shippingTime": "20:30-20:50",
+        "expressFee": 5,
+        "min_price": 20
+      },
+      {
+        "poiId": 100948939399393,
+        "name": "潇湘府",
+        "picUrl": "http: //img.test.com/test.png",
+        "star": 4.5,
+        "deliveryTime": 40,
+        "shippingTime": "20:30-20:50",
+        "expressFee": 5,
+        "min_price": 20
+      },
+      {
+        "poiId": 100948939399393,
+        "name": "台湾卤肉饭",
+        "picUrl": "http: //img.test.com/test.png",
+        "star": 4.5,
+        "deliveryTime": 40,
+        "shippingTime": "20:30-20:50",
+        "expressFee": 5,
+        "min_price": 20
+      },
+      {
+        "poiId": 100948939399393,
+        "name": "寿司",
+        "picUrl": "http: //img.test.com/test.png",
+        "star": 4.5,
+        "deliveryTime": 40,
+        "shippingTime": "20:30-20:50",
+        "expressFee": 5,
+        "min_price": 20
+      },
+      {
+        "poiId": 100948939399393,
+        "name": "海碗居（望京店）",
+        "picUrl": "http: //img.test.com/test.png",
+        "star": 4.5,
+        "deliveryTime": 40,
+        "shippingTime": "20:30-20:50",
+        "expressFee": 5,
+        "min_price": 20
+      },
+      {
+        "poiId": 100948939399393,
+        "name": "护国寺小吃",
+        "picUrl": "http: //img.test.com/test.png",
+        "star": 4.5,
+        "deliveryTime": 40,
+        "shippingTime": "20:30-20:50",
+        "expressFee": 5,
+        "min_price": 20
+      },
+      {
+        "poiId": 100948939399393,
+        "name": "香河肉饼",
+        "picUrl": "http: //img.test.com/test.png",
+        "star": 4.5,
+        "deliveryTime": 40,
+        "shippingTime": "20:30-20:50",
+        "expressFee": 5,
+        "min_price": 20
+      },
+      {
+        "poiId": 100948939399393,
+        "name": "凉皮肉夹馍",
+        "picUrl": "http: //img.test.com/test.png",
+        "star": 4.5,
+        "deliveryTime": 40,
+        "shippingTime": "20:30-20:50",
+        "expressFee": 5,
+        "min_price": 20
+      },
+      {
+        "poiId": 100948939399393,
+        "name": "冒菜",
+        "picUrl": "http: //img.test.com/test.png",
+        "star": 4.5,
+        "deliveryTime": 40,
+        "shippingTime": "20:30-20:50",
+        "expressFee": 5,
+        "min_price": 20
+      },
+      {
+        "poiId": 100948939399393,
+        "name": "必胜客",
+        "picUrl": "http: //img.test.com/test.png",
+        "star": 4.5,
+        "deliveryTime": 40,
+        "shippingTime": "20:30-20:50",
+        "expressFee": 5,
+        "min_price": 20
+      },
+      {
+        "poiId": 100948939399393,
+        "name": "江边城外烤全鱼",
+        "picUrl": "http: //img.test.com/test.png",
+        "star": 4.5,
+        "deliveryTime": 40,
+        "shippingTime": "20:30-20:50",
+        "expressFee": 5,
+        "min_price": 20
+      },
+      {
+        "poiId": 100948939399393,
+        "name": "知味盖饭",
+        "picUrl": "http: //img.test.com/test.png",
+        "star": 4.5,
+        "deliveryTime": 40,
+        "shippingTime": "20:30-20:50",
+        "expressFee": 5,
+        "min_price": 20
+      },
+      {
+        "poiId": 100948939399393,
+        "name": "优粮生活",
+        "picUrl": "http: //img.test.com/test.png",
+        "star": 4.5,
+        "deliveryTime": 40,
+        "shippingTime": "20:30-20:50",
+        "expressFee": 5,
+        "min_price": 20
+      },
+      {
+        "poiId": 100948939399393,
+        "name": "辉记肠粉",
+        "picUrl": "http: //img.test.com/test.png",
+        "star": 4.5,
+        "deliveryTime": 40,
+        "shippingTime": "20:30-20:50",
+        "expressFee": 5,
+        "min_price": 20
+      },
+      {
+        "poiId": 100948939399393,
+        "name": "棒约翰（望京店）",
+        "picUrl": "http: //img.test.com/test.png",
+        "star": 4.5,
+        "deliveryTime": 40,
+        "shippingTime": "20:30-20:50",
+        "expressFee": 5,
+        "min_price": 20
+      },
+      {
+        "poiId": 100948939399393,
+        "name": "海盗虾饭",
+        "picUrl": "http: //img.test.com/test.png",
+        "star": 4.5,
+        "deliveryTime": 40,
+        "shippingTime": "20:30-20:50",
+        "expressFee": 5,
+        "min_price": 20
+      },
+      {
+        "poiId": 100948939399393,
+        "name": "西少爷肉夹馍",
+        "picUrl": "http: //img.test.com/test.png",
+        "star": 4.5,
+        "deliveryTime": 40,
+        "shippingTime": "20:30-20:50",
+        "expressFee": 5,
+        "min_price": 20
+      },
+      {
+        "poiId": 100948939399393,
+        "name": "丽华快餐",
+        "picUrl": "http: //img.test.com/test.png",
+        "star": 4.5,
+        "deliveryTime": 40,
+        "shippingTime": "20:30-20:50",
+        "expressFee": 5,
+        "min_price": 20
+      },
+      {
+        "poiId": 100948939399393,
+        "name": "成都美食",
+        "picUrl": "http: //img.test.com/test.png",
+        "star": 4.5,
+        "deliveryTime": 40,
+        "shippingTime": "20:30-20:50",
+        "expressFee": 5,
+        "min_price": 20
+      },
+      {
+        "poiId": 100948939399393,
+        "name": "陈厨味道",
+        "picUrl": "http: //img.test.com/test.png",
+        "star": 4.5,
+        "deliveryTime": 40,
+        "shippingTime": "20:30-20:50",
+        "expressFee": 5,
+        "min_price": 20
+      }
+    ]
+  }
+}

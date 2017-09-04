@@ -17,7 +17,7 @@ class Home extends React.Component {
             <MiddleNav/>
             <RestFilter/>
             <ResList/>
-            <Footer />
+            {/*<Footer />*/}
         </div>
     }
 }
