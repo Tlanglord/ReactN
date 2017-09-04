@@ -6,7 +6,7 @@
       {
         "poiId": 100948939399393,
         "name": "重庆小面",
-        "picUrl": "http: //img.test.com/test.png",
+        "picUrl": "http://p1.meituan.net/xianfu/fa79f137c70caaf63ba29229d5f90e6470796.jpg",
         "star": 4.5,
         "deliveryTime": 40,
         "shippingTime": "20:30-20:50",
@@ -16,7 +16,7 @@
       {
         "poiId": 100948939399393,
         "name": "7-11",
-        "picUrl": "http: //img.test.com/test.png",
+        "picUrl": "",
         "star": 4.5,
         "deliveryTime": 40,
         "shippingTime": "20:30-20:50",
@@ -25,8 +25,8 @@
       },
       {
         "poiId": 100948939399393,
-        "name": "田师傅红烧肉",
-        "picUrl": "http: //img.test.com/test.png",
+        "name": "田老师红烧肉",
+        "picUrl": "http://p0.meituan.net/xianfu/4bab072d23bc07aed6133b8eaf010d1b5824.jpeg",
         "star": 4.5,
         "deliveryTime": 40,
         "shippingTime": "20:30-20:50",
@@ -36,7 +36,7 @@
       {
         "poiId": 100948939399393,
         "name": "李先生",
-        "picUrl": "http: //img.test.com/test.png",
+        "picUrl": "",
         "star": 4.5,
         "deliveryTime": 40,
         "shippingTime": "20:30-20:50",
@@ -46,7 +46,7 @@
       {
         "poiId": 100948939399393,
         "name": "绝味鸭脖",
-        "picUrl": "http: //img.test.com/test.png",
+        "picUrl": "",
         "star": 4.5,
         "deliveryTime": 40,
         "shippingTime": "20:30-20:50",
@@ -56,7 +56,7 @@
       {
         "poiId": 100948939399393,
         "name": "吉野家",
-        "picUrl": "http: //img.test.com/test.png",
+        "picUrl": "http://p0.meituan.net/xianfu/6ee69625d42187f8ae3f345396a0300d6581.jpeg",
         "star": 4.5,
         "deliveryTime": 40,
         "shippingTime": "20:30-20:50",
@@ -66,7 +66,7 @@
       {
         "poiId": 100948939399393,
         "name": "汉堡王",
-        "picUrl": "http: //img.test.com/test.png",
+        "picUrl": "http://p1.meituan.net/xianfu/3b480ba7d288f24ebcf36d1901d9cf803965.jpeg",
         "star": 4.5,
         "deliveryTime": 40,
         "shippingTime": "20:30-20:50",
@@ -76,7 +76,7 @@
       {
         "poiId": 100948939399393,
         "name": "一碗汤面",
-        "picUrl": "http: //img.test.com/test.png",
+        "picUrl": "",
         "star": 4.5,
         "deliveryTime": 40,
         "shippingTime": "20:30-20:50",
@@ -86,7 +86,7 @@
       {
         "poiId": 100948939399393,
         "name": "好利来",
-        "picUrl": "http: //img.test.com/test.png",
+        "picUrl": "",
         "star": 4.5,
         "deliveryTime": 40,
         "shippingTime": "20:30-20:50",
@@ -96,7 +96,7 @@
       {
         "poiId": 100948939399393,
         "name": "全时便利店",
-        "picUrl": "http: //img.test.com/test.png",
+        "picUrl": "",
         "star": 4.5,
         "deliveryTime": 40,
         "shippingTime": "20:30-20:50",
@@ -106,7 +106,7 @@
       {
         "poiId": 100948939399393,
         "name": "Ueater 365",
-        "picUrl": "http: //img.test.com/test.png",
+        "picUrl": "",
         "star": 4.5,
         "deliveryTime": 40,
         "shippingTime": "20:30-20:50",
@@ -116,7 +116,7 @@
       {
         "poiId": 100948939399393,
         "name": "焦耳外卖",
-        "picUrl": "http: //img.test.com/test.png",
+        "picUrl": "http://p1.meituan.net/xianfu/e470f029ec5de7be3d4772f9539969cb157681.jpg",
         "star": 4.5,
         "deliveryTime": 40,
         "shippingTime": "20:30-20:50",
@@ -126,7 +126,7 @@
       {
         "poiId": 100948939399393,
         "name": "合利屋",
-        "picUrl": "http: //img.test.com/test.png",
+        "picUrl": "",
         "star": 4.5,
         "deliveryTime": 40,
         "shippingTime": "20:30-20:50",
@@ -136,7 +136,7 @@
       {
         "poiId": 100948939399393,
         "name": "东北石锅饭",
-        "picUrl": "http: //img.test.com/test.png",
+        "picUrl": "http://p1.meituan.net/xianfu/1c74dbc03cd9f71b5fa1ac257d54afbc126487.jpg",
         "star": 4.5,
         "deliveryTime": 40,
         "shippingTime": "20:30-20:50",
@@ -146,7 +146,7 @@
       {
         "poiId": 100948939399393,
         "name": "麻辣香锅",
-        "picUrl": "http: //img.test.com/test.png",
+        "picUrl": "http://p0.meituan.net/xianfu/3d8d3ba52d628f8d5751c5806969be2c440109.jpg",
         "star": 4.5,
         "deliveryTime": 40,
         "shippingTime": "20:30-20:50",
@@ -156,7 +156,7 @@
       {
         "poiId": 100948939399393,
         "name": "黄焖鸡",
-        "picUrl": "http: //img.test.com/test.png",
+        "picUrl": "",
         "star": 4.5,
         "deliveryTime": 40,
         "shippingTime": "20:30-20:50",
@@ -166,7 +166,7 @@
       {
         "poiId": 100948939399393,
         "name": "麦当劳",
-        "picUrl": "http: //img.test.com/test.png",
+        "picUrl": "http://p0.meituan.net/xianfu/fd3a8462080c71f60f2581c2e7c1d3f43010.jpeg",
         "star": 4.5,
         "deliveryTime": 40,
         "shippingTime": "20:30-20:50",
@@ -176,7 +176,7 @@
       {
         "poiId": 100948939399393,
         "name": "三泉冷面",
-        "picUrl": "http: //img.test.com/test.png",
+        "picUrl": "http://p1.meituan.net/xianfu/5632dcd0963c71a1dfb270631c8d257849152.jpg",
         "star": 4.5,
         "deliveryTime": 40,
         "shippingTime": "20:30-20:50",
@@ -186,7 +186,7 @@
       {
         "poiId": 100948939399393,
         "name": "Rest Food",
-        "picUrl": "http: //img.test.com/test.png",
+        "picUrl": "",
         "star": 4.5,
         "deliveryTime": 40,
         "shippingTime": "20:30-20:50",
@@ -196,7 +196,7 @@
       {
         "poiId": 100948939399393,
         "name": "肯德基（来广营店）",
-        "picUrl": "http: //img.test.com/test.png",
+        "picUrl": "http://p0.meituan.net/xianfu/0016f9e2ec997b0ff9f744ec0b9142d415083.jpeg",
         "star": 4.5,
         "deliveryTime": 40,
         "shippingTime": "20:30-20:50",
@@ -206,7 +206,7 @@
       {
         "poiId": 100948939399393,
         "name": "潇湘府",
-        "picUrl": "http: //img.test.com/test.png",
+        "picUrl": "",
         "star": 4.5,
         "deliveryTime": 40,
         "shippingTime": "20:30-20:50",
@@ -216,7 +216,7 @@
       {
         "poiId": 100948939399393,
         "name": "台湾卤肉饭",
-        "picUrl": "http: //img.test.com/test.png",
+        "picUrl": "http://p0.meituan.net/xianfu/96fab888e540fd03225a8075a5e0915447295.jpg",
         "star": 4.5,
         "deliveryTime": 40,
         "shippingTime": "20:30-20:50",
@@ -226,7 +226,7 @@
       {
         "poiId": 100948939399393,
         "name": "寿司",
-        "picUrl": "http: //img.test.com/test.png",
+        "picUrl": "",
         "star": 4.5,
         "deliveryTime": 40,
         "shippingTime": "20:30-20:50",
@@ -236,7 +236,7 @@
       {
         "poiId": 100948939399393,
         "name": "海碗居（望京店）",
-        "picUrl": "http: //img.test.com/test.png",
+        "picUrl": "",
         "star": 4.5,
         "deliveryTime": 40,
         "shippingTime": "20:30-20:50",
@@ -246,7 +246,7 @@
       {
         "poiId": 100948939399393,
         "name": "护国寺小吃",
-        "picUrl": "http: //img.test.com/test.png",
+        "picUrl": "",
         "star": 4.5,
         "deliveryTime": 40,
         "shippingTime": "20:30-20:50",
@@ -256,7 +256,7 @@
       {
         "poiId": 100948939399393,
         "name": "香河肉饼",
-        "picUrl": "http: //img.test.com/test.png",
+        "picUrl": "",
         "star": 4.5,
         "deliveryTime": 40,
         "shippingTime": "20:30-20:50",
@@ -266,7 +266,7 @@
       {
         "poiId": 100948939399393,
         "name": "凉皮肉夹馍",
-        "picUrl": "http: //img.test.com/test.png",
+        "picUrl": "http://p0.meituan.net/xianfu/3063086f5c8abb1011271984f5ba620a52447.jpg",
         "star": 4.5,
         "deliveryTime": 40,
         "shippingTime": "20:30-20:50",
@@ -276,7 +276,7 @@
       {
         "poiId": 100948939399393,
         "name": "冒菜",
-        "picUrl": "http: //img.test.com/test.png",
+        "picUrl": "http://p0.meituan.net/xianfu/972534c3f0ed3d0e62e26bda594ae7db217088.jpg",
         "star": 4.5,
         "deliveryTime": 40,
         "shippingTime": "20:30-20:50",
@@ -286,7 +286,7 @@
       {
         "poiId": 100948939399393,
         "name": "必胜客",
-        "picUrl": "http: //img.test.com/test.png",
+        "picUrl": "http://p1.meituan.net/xianfu/d4abcf9825a8c77b7374151a1f58aa0f21515.jpg",
         "star": 4.5,
         "deliveryTime": 40,
         "shippingTime": "20:30-20:50",
@@ -296,7 +296,7 @@
       {
         "poiId": 100948939399393,
         "name": "江边城外烤全鱼",
-        "picUrl": "http: //img.test.com/test.png",
+        "picUrl": "",
         "star": 4.5,
         "deliveryTime": 40,
         "shippingTime": "20:30-20:50",
@@ -306,7 +306,7 @@
       {
         "poiId": 100948939399393,
         "name": "知味盖饭",
-        "picUrl": "http: //img.test.com/test.png",
+        "picUrl": "http://p0.meituan.net/xianfu/d0acd284e14e07ecd1cc3ba6fd9d512474203.jpg",
         "star": 4.5,
         "deliveryTime": 40,
         "shippingTime": "20:30-20:50",
@@ -316,7 +316,7 @@
       {
         "poiId": 100948939399393,
         "name": "优粮生活",
-        "picUrl": "http: //img.test.com/test.png",
+        "picUrl": "http://p0.meituan.net/xianfu/1c58e3b4d704cc944603dca3aa68ec3a20751.jpg",
         "star": 4.5,
         "deliveryTime": 40,
         "shippingTime": "20:30-20:50",
@@ -326,7 +326,7 @@
       {
         "poiId": 100948939399393,
         "name": "辉记肠粉",
-        "picUrl": "http: //img.test.com/test.png",
+        "picUrl": "",
         "star": 4.5,
         "deliveryTime": 40,
         "shippingTime": "20:30-20:50",
@@ -336,7 +336,7 @@
       {
         "poiId": 100948939399393,
         "name": "棒约翰（望京店）",
-        "picUrl": "http: //img.test.com/test.png",
+        "picUrl": "http://p0.meituan.net/xianfu/9d4b69c3d6de3f38a6e6c4896f3aa98811749.jpeg",
         "star": 4.5,
         "deliveryTime": 40,
         "shippingTime": "20:30-20:50",
@@ -346,7 +346,7 @@
       {
         "poiId": 100948939399393,
         "name": "海盗虾饭",
-        "picUrl": "http: //img.test.com/test.png",
+        "picUrl": "",
         "star": 4.5,
         "deliveryTime": 40,
         "shippingTime": "20:30-20:50",
@@ -356,7 +356,7 @@
       {
         "poiId": 100948939399393,
         "name": "西少爷肉夹馍",
-        "picUrl": "http: //img.test.com/test.png",
+        "picUrl": "http://p1.meituan.net/xianfu/fa71562584943441df627ec581ea068e14036.jpeg",
         "star": 4.5,
         "deliveryTime": 40,
         "shippingTime": "20:30-20:50",
@@ -366,7 +366,7 @@
       {
         "poiId": 100948939399393,
         "name": "丽华快餐",
-        "picUrl": "http: //img.test.com/test.png",
+        "picUrl": "",
         "star": 4.5,
         "deliveryTime": 40,
         "shippingTime": "20:30-20:50",
@@ -376,7 +376,7 @@
       {
         "poiId": 100948939399393,
         "name": "成都美食",
-        "picUrl": "http: //img.test.com/test.png",
+        "picUrl": "",
         "star": 4.5,
         "deliveryTime": 40,
         "shippingTime": "20:30-20:50",
@@ -386,7 +386,7 @@
       {
         "poiId": 100948939399393,
         "name": "陈厨味道",
-        "picUrl": "http: //img.test.com/test.png",
+        "picUrl": "",
         "star": 4.5,
         "deliveryTime": 40,
         "shippingTime": "20:30-20:50",

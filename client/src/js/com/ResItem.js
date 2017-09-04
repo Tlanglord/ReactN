@@ -20,7 +20,7 @@ export default class ResItem extends Component {
             <li className="resItem-box">
                 <div className="resItem-content">
                     <img className="res-img"
-                         src="http://p1.meituan.net/xianfu/1c74dbc03cd9f71b5fa1ac257d54afbc126487.jpg"/>
+                         src={poi.picUrl}/>
                     <div className="res-name label-style">{poi.name}</div>
                     <div>评分</div>
                     <div className="resItem-bottom">
