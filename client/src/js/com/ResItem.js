@@ -14,8 +14,6 @@ import "../css/resItem.css";
 export default class ResItem extends Component {
     render() {
         const {poi} = this.props;
-
-        debugger
         return (
             <li className="resItem-box">
                 <div className="resItem-content">

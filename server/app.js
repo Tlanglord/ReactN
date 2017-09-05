@@ -29,12 +29,13 @@ app.use(express.static(path.join(__dirname, '../client')));
 //app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')));
 app.use(logger('dev'));
 app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({ extended: false }));
+app.use(bodyParser.urlencoded({extended: false}));
 app.use(cookieParser());
 
 
 apiConfig.config(app);
 app.use('/', index);
+app.use('/login', index);
 
 // 新增接口路由
 app.get('/data/:module', function (req, res, next) {
@@ -44,7 +45,6 @@ app.get('/data/:module', function (req, res, next) {
     console.log("env" + process.env.NODE_ENV);
     action.execute(req, res);
 });
-
 
 
 // catch 404 and forward to error handler

@@ -3,6 +3,7 @@
  */
 
 import React from 'react'
+import {Router, Route, hashHistory} from 'react-router';
 import '../css/topnav.css'
 import '../css/common.css'
 
@@ -14,7 +15,7 @@ class TopNav extends React.Component {
                     <div className="fl">
                         <a className="fl">注册</a>
                         <span className="fl top-login-dvd">|</span>
-                        <a className="fl">登录</a>
+                        <a className="fl" href="/login">登录</a>
                     </div>
                     <a className="top-ml20">手机版</a>
                     <a className="top-ml20">美团网</a>
