@@ -1,0 +1,41 @@
+.login-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #FFFFFF;
+}
+
+.login {
+    width: 980px;
+    height: auto;
+}
+
+.login-header-wrap {
+    width: 980px;
+    margin: 40px auto 30px;
+    height: 60px;
+}
+
+.login-header {
+    width: 144px;
+    height: 60px;
+    text-indent: -9999px;
+    background-position: -114px -748px;
+    background-image: url(//s0.meituan.net/bs/file/?f=fe-sso-fs:build/assets/sp-normal.2ee5c09.png)
+}
+
+.login-body {
+    width: 980px;
+    height: auto;
+}
+
+.login-left {
+    width: 480px;
+    height: 370px;
+}
+
+.login-right {
+    width: 270px;
+    height: 370px;
+}
+
