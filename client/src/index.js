@@ -6,7 +6,7 @@ import {Provider}from 'react-redux';
 // import {Router, Route} from 'react-router'
 import {Router, Route, Switch} from 'react-router-dom'
 import createBrowserHistory from 'history/createBrowserHistory'
-const history = createBrowserHistory()
+const history = createBrowserHistory();
 import Login from './js/com/Login'
 import store from './js/store/store';
 import ReactDOM from 'react-dom'

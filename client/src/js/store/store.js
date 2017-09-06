@@ -9,6 +9,7 @@ import poilist from '../reducer/ResItemReducer';
 
 var store = createStore(
     poilist,
+    window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__(),
     applyMiddleware(
         createLogger,
         thunkMiddleware

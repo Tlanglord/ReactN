@@ -21,7 +21,7 @@
     height: 60px;
     text-indent: -9999px;
     background-position: -114px -748px;
-    background-image: url(//s0.meituan.net/bs/file/?f=fe-sso-fs:build/assets/sp-normal.2ee5c09.png)
+    background-image: url(http://s0.meituan.net/bs/file/?f=fe-sso-fs:build/assets/sp-normal.2ee5c09.png)
 }
 
 .login-body {
@@ -32,6 +32,7 @@
 .login-left {
     width: 480px;
     height: 370px;
+    margin-right: 115px;
 }
 
 .login-right {
@@ -39,3 +40,47 @@
     height: 370px;
 }
 
+.login-field {
+    width: 370px;
+    padding: 10px 0px 0px 110px;
+    display: block;
+}
+
+.login-phone {
+
+}
+
+.login-code {
+
+}
+
+.login-text {
+    height: 24px;
+    padding: 5px;
+    width: 248px;
+    border: 1px solid #aaa;
+    line-height: 24px;
+    vertical-align: top;
+}
+
+.login-phone-icon {
+    width: 18px;
+    height: 18px;
+    background-position: -1250px -581px;
+    background-image: url(http://s0.meituan.net/bs/file/?f=fe-sso-fs:build/assets/sp-normal.2ee5c09.png);
+}
+
+.login-code-icon {
+    width: 18px;
+    height: 18px;
+    background-position: -1250px -653px;
+    background-image: url(http://s0.meituan.net/bs/file/?f=fe-sso-fs:build/assets/sp-normal.2ee5c09.png);
+}
+
+.login-icon{
+    width: 18px;
+    height: 18px;
+    top: 16px;
+    left: 9px;
+    line-height: 18px;
+}
