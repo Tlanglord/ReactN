@@ -7,6 +7,7 @@ import '../css/common.css'
 
 export default class Login extends React.Component {
     render() {
+        document.title = "登录";
         return <div className="login-container">
             <div className="login">
                 <header className="login-header-wrap">

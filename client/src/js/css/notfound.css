@@ -1,0 +1,9 @@
+.notfound-container {
+    width: 100%;
+    left: 0;
+    top: 0;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #FFFFFF;
+    color: #008de1;
+}
