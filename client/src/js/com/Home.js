@@ -7,7 +7,6 @@ import Footer from './footer';
 import ResList from "./ResList";
 import TopNav from "./TopNav";
 import MiddleNav from "./MiddleNav";
-import RestFilter from './RestaurantFilter'
 import "../css/home.css"
 
 class Home extends React.Component {
@@ -17,7 +16,6 @@ class Home extends React.Component {
         return <div className="home-container">
             <TopNav/>
             <MiddleNav/>
-            <RestFilter/>
             <ResList/>
             {/*<Footer />*/}
         </div>

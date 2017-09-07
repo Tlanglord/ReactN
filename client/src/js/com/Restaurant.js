@@ -5,16 +5,15 @@ import React from "react";
 import '../css/restaurant.css'
 import '../css/common.css'
 import TopNav from './TopNav';
+import RestInfo from './RestInfo';
 
 class Restaurant extends React.Component {
     render() {
-
-        debugger
         var id = this.props.location.query;
-        debugger
         console.log("queryid->" + id);
         return <div>
             <TopNav/>
+            <RestInfo/>
         </div>;
     }
 }

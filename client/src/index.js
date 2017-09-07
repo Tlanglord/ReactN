@@ -19,7 +19,7 @@ ReactDOM.render(
     <Provider store={store}>
         <Router>
             <Switch>
-                <Route exact path='/' component={Map}/>
+                <Route exact path='/' component={Home}/>
                 <Route path='/restaurant' component={Restaurant}/>
                 <Route path='/login' component={Login}/>
                 <Route component={NotFound}/>
