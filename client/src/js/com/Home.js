@@ -12,6 +12,8 @@ import "../css/home.css"
 
 class Home extends React.Component {
     render() {
+
+        document.title = "welcome"
         return <div className="home-container">
             <TopNav/>
             <MiddleNav/>

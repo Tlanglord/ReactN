@@ -4,6 +4,7 @@ var favicon = require('serve-favicon');
 var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
+// require('crypto')
 var fs = require('fs');
 
 var index = require('./routes/index');
@@ -34,8 +35,9 @@ app.use(cookieParser());
 
 
 apiConfig.config(app);
-app.use('/', index);
-app.use('/login', index);
+app.use('*', index);
+
+// app.use('/login', index);
 
 // 新增接口路由
 app.get('/data/:module', function (req, res, next) {
