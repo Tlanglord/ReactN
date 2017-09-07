@@ -3,7 +3,9 @@
  */
 
 var poilist = require('../routes/poilist')
+var my = require('../routes/my')
 
 exports.config = function (app) {
     app.use(poilist);
+    app.use(my);
 }

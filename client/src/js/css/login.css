@@ -84,3 +84,8 @@
     left: 9px;
     line-height: 18px;
 }
+
+.login-submit{
+    width: 260px;
+    height: 40px;
+}

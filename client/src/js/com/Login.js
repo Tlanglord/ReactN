@@ -18,14 +18,18 @@ export default class Login extends React.Component {
                              height="370" alt="美团外卖"></img>
                     </div>
                     <div className="fl login-right">
-                        <form action="" method="POST">
+                        <form action="/api/account" method="POST">
                             <div className="login-field">
                                 <i className="login-icon login-phone-icon"></i>
-                                <input type="text" placeholder="请输入您的手机号" className="login-text"></input>
+                                <input type="text" name="name" placeholder="请输入您的手机号" className="login-text"></input>
                             </div>
                             <div className="login-field">
                                 <i className="login-icon login-code-icon"></i>
-                                <input type="text" placeholder="动态码" className="login-text"></input>
+                                <input type="text" name="code" placeholder="动态码" className="login-text"></input>
+                            </div>
+
+                            <div className="login-field">
+                                <input type="submit"  className="login-submit" value="登录"></input>
                             </div>
                         </form>
                     </div>
