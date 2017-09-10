@@ -1,0 +1,112 @@
+.rest-ct {
+    margin-top: 20px;
+    height: 100px;
+    width: 100%;
+}
+
+.rest-wrap {
+    height: 120px;
+    width: 980px;
+    background-color: #FFF;
+    margin: 0 auto;
+}
+
+.rest-into-base {
+    width: 865px;
+    height: 120px;
+    border-right: 1px dashed #e5e5e5;
+    background-color: #fff;
+    position: relative;
+    zoom: 1;
+    z-index: 3;
+    box-sizing: border-box;
+}
+
+.rest-info-fav {
+
+}
+
+.rest-info-price {
+    padding-top: 31px;
+}
+
+.rest-info-price-top {
+
+}
+
+.rest-time-top {
+    font-size: 12px;
+    margin-top: 10px;
+    color: #4a4a4a;
+}
+
+.rest-strong {
+    margin-right: 3px;
+    font-size: 28px;
+}
+
+.rest-price-ml{
+    margin-right: 70px;
+}
+
+.detail{
+    min-width: 330px;
+    max-width: 52%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-right: 10px;
+    overflow: hidden;
+}
+
+.up-wrap{
+
+}
+
+.avatar{
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 106px;
+    height: 80px;
+    line-height: 88px;
+    text-align: center;
+    border: 1px solid #eee;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.n-mt{
+    margin-left: 16px;
+    margin-top: 38px;
+    width: 270px;
+}
+
+
+span{
+    color: #333;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.rest-over{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.over{
+    left: -1px;
+    background-color: #fff;
+    border: 1px solid #ebebeb;
+    border-top: 0;
+    overflow: visible;
+    box-shadow: 1px 1px 5px #ccc;
+    -moz-box-shadow: 1px 1px 5px #ccc;
+    -webkit-box-shadow: 1px 1px 5px #ccc;
+    -ms-box-shadow: 1px 1px 5px #ccc;
+    -o-box-shadow: 1px 1px 5px #ccc;
+}
+
+.down-wrap{
+    padding-top: 80px;
+    transition: opacity .6s ease;
+}
