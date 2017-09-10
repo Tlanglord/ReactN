@@ -23,11 +23,11 @@ class TopNav extends React.Component {
                 </div>
                 <div className="fl">
                     <i className="fl top-loc"/>
-                    <span className="fl top-ml10">北京</span>
-                    <span className="fl">
-                        <span className="fl top-ml10">望京，来广营</span>
-                        <span className="fl top-dvd top-ml10">|</span>
-                        <span className="fl top-ml10 top-addr-change">切换地址</span>
+                    <span className="fl top-ml10 top-loc-bg">北京</span>
+                    <span className="fl ">
+                        <span className="fl top-ml10 top-loc-bg ">望京，来广营</span>
+                        <span className="fl top-dvd  top-loc-bg top-ml10">|</span>
+                        <span className="fl top-ml10  top-loc-bg top-addr-change">切换地址</span>
                     </span>
                 </div>
             </div>
