@@ -17,7 +17,7 @@ module.exports = {
         // 加载器配置
         loaders: [
             {
-                test: /\.jsx?$/,
+                test: /\.(js|jsx)$/,
                 exclude: /node_modules/,
                 loader: 'babel-loader',
                 query: {
@@ -25,8 +25,8 @@ module.exports = {
                 }
             },
             {
-                test: /\.css$/,
-                loader: 'style-loader!css-loader'
+                test: /\.(css|less)$/,
+                loader: 'style-loader!css-loader!less-loader'
             }
         ]
     },
