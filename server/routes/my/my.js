@@ -4,8 +4,9 @@
 var express = require('express');
 var router = express.Router();
 var redis = require('redis');
-var User = require('../lib/User');
-var client = redis.createClient(6379,'127.0.0.1', {});
+var User = require('../../lib/User');
+var Util = require('../../lib/Util');
+var client = redis.createClient();
 
 router.post('/api/account', function (req, res, next) {
     client.on('error', function (err) {
@@ -16,9 +17,12 @@ router.post('/api/account', function (req, res, next) {
     var user = new User(obj);
     user.save(function (err) {
         if(err){
-             return res.send("");
+             return res.redirect("/");
         }
-        res.send("ok");
+
+        res.cookie('username',user.name);
+        res.cookie('access_token', Util.genToken(user.name, '1234', new Date()))
+        res.redirect("back");
     })
 });
 

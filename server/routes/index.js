@@ -5,7 +5,8 @@ var router = express.Router();
 router.get('/', function (req, res, next) {
     // console.log("index");
     // console.log(__dirname);
-    console.log("session" + req.session);
+    console.log(req.session);
+    console.log(req.cookies);
     res.render('index');
 });
 

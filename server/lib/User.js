@@ -24,7 +24,6 @@ User.prototype.save = function (fn) {
                 return fn(err);
             }
             debugger
-
             user.id = id;
             user.hashPassword(function (err) {
                 if (err) {
