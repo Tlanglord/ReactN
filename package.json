@@ -27,7 +27,6 @@
     "html-webpack-plugin": "^2.0.0",
     "jsx-loader": "^0.13.2",
     "morgan": "~1.8.1",
-    "node-redis": "^0.1.7",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
     "react-redux": "^5.0.6",
