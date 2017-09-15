@@ -13,7 +13,7 @@ class TopNav extends React.Component {
             <div className="top-nav">
                 <div className="fr">
                     <div className="fl">
-                        <a className="fl">注册</a>
+                        <a className="fl" href="/register">注册</a>
                         <span className="fl top-login-dvd">|</span>
                         <a className="fl" href="/login">登录</a>
                     </div>

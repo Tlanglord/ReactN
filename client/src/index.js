@@ -8,6 +8,7 @@ import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
 import createBrowserHistory from 'history/createBrowserHistory'
 const history = createBrowserHistory();
 import Login from './js/com/Login'
+import Register from './js/com/Register'
 import store from './js/store/store';
 import ReactDOM from 'react-dom'
 import Home from './js/com/Home'
@@ -23,6 +24,7 @@ ReactDOM.render(
                 <Route exact path='/' component={Home}/>
                 <Route path='/restaurant' component={Restaurant}/>
                 <Route path='/login' component={Login}/>
+                <Route path='/register' component={Register}/>
                 <Route component={NotFound}/>
             </Switch>
         </Router>

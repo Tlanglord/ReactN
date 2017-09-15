@@ -8,22 +8,58 @@ var User = require('../../lib/User');
 var Util = require('../../lib/Util');
 var client = redis.createClient();
 
-router.post('/api/account', function (req, res, next) {
+router.post('/api/login', function (req, res, next) {
     client.on('error', function (err) {
         console.log("err:" + err);
     })
     console.log(req.body);
-    var obj = {'name': req.body.name, 'pass': req.body.code};
-    var user = new User(obj);
-    user.save(function (err) {
-        if(err){
-             return res.redirect("/");
+    var uname = req.body.name;
+    var upass = req.body.code;
+
+    User.authenticate(upass, uname, function (err, user) {
+
+        if (err) {
+            console.log(err);
+            return res.redirect("/");
         }
 
-        res.cookie('username',user.name);
-        res.cookie('access_token', Util.genToken(user.name, '1234', new Date()))
-        res.redirect("back");
+        console.log("id:"+ user.id);
+        console.log("token:"+ user.token);
+        res.cookie("access_token", user.token, {maxAge: 1000 * 60 * 60 * 24});
+        console.log("name:"+ user.name);
+        res.cookie("uid", user.name);
+        res.redirect("/");
     })
+
+});
+
+
+router.post('/api/register', function (req, res, next) {
+    client.on('error', function (err) {
+        console.log("err:" + err);
+    })
+    console.log(req.body);
+    var uname = req.body.name;
+    var upass = req.body.code;
+
+    var obj = {name: uname, pass: upass};
+    var user = new User(obj);
+
+    user.save(function (err) {
+        if (err) {
+            return res.redirect("/");
+        }
+
+        User.authenticate(upass, uname, function (err, user) {
+            if (err) {
+                return res.redirect("/");
+            }
+            res.cookie("access_token", user.token, {maxAge: 1000 * 60 * 60 * 24});
+            res.cookie("uid", user.name);
+            res.redirect("/");
+        })
+    })
+
 });
 
 module.exports = router;

@@ -5,7 +5,7 @@ import React from 'react'
 import '../css/login.css'
 import '../css/common.css'
 
-export default class Login extends React.Component {
+export default class Register extends React.Component {
     render() {
         document.title = "登录";
         return <div className="login-container">
@@ -19,18 +19,18 @@ export default class Login extends React.Component {
                              height="370" alt="美团外卖"></img>
                     </div>
                     <div className="fl login-right">
-                        <form action="/api/login" method="POST">
+                        <form action="/api/register" method="POST">
                             <div className="login-field">
                                 <i className="login-icon login-phone-icon"></i>
                                 <input type="text" name="name" placeholder="请输入您的手机号" className="login-text"></input>
                             </div>
                             <div className="login-field">
                                 <i className="login-icon login-code-icon"></i>
-                                <input type="text" name="code" placeholder="动态码" className="login-text"></input>
+                                <input type="text" name="code" placeholder="密码" className="login-text"></input>
                             </div>
 
                             <div className="login-field">
-                                <input type="submit"  className="login-submit" value="登录"></input>
+                                <input type="submit"  className="login-submit" value="注册"></input>
                             </div>
                         </form>
                     </div>
