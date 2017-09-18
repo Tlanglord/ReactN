@@ -177,11 +177,21 @@ User.authenticate = function (pass, name, fn) {
             if (hash == user.pass) {
                 debugger
                 user.token = Util.genToken(user.name, "123456", new Date());
+                db.set("user:token:" + user.id, user.token);
                 debugger
                 return fn(null, user);
             }
             fn();
         })
+    })
+}
+
+User.logout = function (id, fn) {
+    db.del("user:token:" + id, function (err) {
+        if (err) {
+            return fn(err);
+        }
+        fn();
     })
 }
 

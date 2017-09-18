@@ -23,11 +23,12 @@ router.post('/api/login', function (req, res, next) {
             return res.redirect("/");
         }
 
-        console.log("id:"+ user.id);
-        console.log("token:"+ user.token);
+        console.log("id:" + user.id);
+        console.log("token:" + user.token);
         res.cookie("access_token", user.token, {maxAge: 1000 * 60 * 60 * 24});
-        console.log("name:"+ user.name);
-        res.cookie("uid", user.name);
+        console.log("name:" + user.name);
+        res.cookie("uid", user.id);
+        res.cookie("username", user.name);
         res.redirect("/");
     })
 
@@ -55,11 +56,25 @@ router.post('/api/register', function (req, res, next) {
                 return res.redirect("/");
             }
             res.cookie("access_token", user.token, {maxAge: 1000 * 60 * 60 * 24});
-            res.cookie("uid", user.name);
+            res.cookie("username", user.name);
+            res.cookie("uid", user.id);
             res.redirect("/");
         })
     })
-
 });
+
+router.get('/api/logout', function (req, res, next) {
+
+    var uid = req.cookies.uid;
+    User.logout(uid, function (err) {
+        if (!err) {
+            res.cookie("username", "", {maxAge: 0});
+            res.cookie("uid", "", {maxAge: 0});
+            res.cookie("access_token", "", {maxAge: 0});
+        }
+        res.redirect("/");
+    })
+
+})
 
 module.exports = router;

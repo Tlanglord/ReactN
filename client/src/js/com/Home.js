@@ -15,8 +15,8 @@ class Home extends React.Component {
         document.title = "welcome"
         return <div className="home-container">
             <TopNav/>
-            <MiddleNav/>
-            <ResList/>
+            {/*<MiddleNav/>*/}
+            {/*<ResList/>*/}
             {/*<Footer />*/}
         </div>
     }

@@ -3,8 +3,8 @@
 }
 
 .fr {
-    float: right
-;}
+    float: right;
+}
 
 body {
     background-color: #F5F5F5;
@@ -22,7 +22,31 @@ div ul {
     -webkit-padding-start: 0px;
 }
 
-
-a{
+a {
     text-decoration: none;
+}
+
+/*style="visibility: none;"*/
+
+/*document.getElementById("typediv1").style.visibility="hidden";//隐藏*/
+
+/*document.getElementById("typediv1").style.visibility="visible";//显示*/
+
+/*通过设置display属性可以使div隐藏后释放占用的页面空间，如下*/
+/*复制代码 代码如下:*/
+
+/*style="display: none;"*/
+
+/*document.getElementById("typediv1").style.display="none";//隐藏*/
+
+/*document.getElementById("typediv1").style.display="";//显示*/
+
+.gone {
+    /*visibility: hidden;*/
+    display: none;
+}
+
+.visible {
+    /*visibility: visible;*/
+    display: block;
 }
