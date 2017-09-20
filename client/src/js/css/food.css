@@ -1,0 +1,8 @@
+.food {
+    width: 219px;
+    height: 251px;
+    float: left;
+    border-right: 1px dashed #e5e5e5;
+    border-bottom: 1px dashed #e5e5e5;
+    overflow: hidden
+}

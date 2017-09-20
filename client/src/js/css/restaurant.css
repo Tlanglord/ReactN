@@ -1,3 +1,18 @@
 .restaurant-container {
     width: 100%;
 }
+
+.rest-content{
+    width: 980px;
+    margin: 0 auto;
+
+}
+
+.rest-tab{
+    left: 40px;
+    height: 47px;
+    margin-left: 50px;
+    color: #ffa627;
+    font-size: 16px;
+    border-bottom: 3px solid #ffa627;
+}
