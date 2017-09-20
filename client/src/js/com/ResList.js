@@ -26,7 +26,7 @@ class ResList extends Component {
         let rs = [];
         if (data != null) {
             var poiList = data.poiList;
-            for (let i = 0; i < poiList.length; i++) {
+            for (let i = 0; i < 1; i++) {
                 rs.push(<ResItem key={i} poi={poiList[i]}/>);
             }
         }

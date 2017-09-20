@@ -16,7 +16,7 @@ class Home extends React.Component {
         return <div className="home-container">
             <TopNav/>
             {/*<MiddleNav/>*/}
-            {/*<ResList/>*/}
+            <ResList/>
             {/*<Footer />*/}
         </div>
     }

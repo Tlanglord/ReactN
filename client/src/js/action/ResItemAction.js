@@ -19,12 +19,13 @@ export function recvPoilist(json) {
 export function fetchPoilist() {
     return function (dispatch) {
         dispatch(reqPoilist(1, 1));
-        return fetch("http://localhost:3000/api/poilist").then(function (response) {
-            var json = response.json();
-            return json;
-        }).then(function (json) {
-            // console.log(JSON.stringify(json));
-            dispatch(recvPoilist(json));
-        });
+        return fetch("http://localhost:3000/api/poilist")
+            .then(function (response) {
+                var json = response.json();
+                return json;
+            }).then(function (json) {
+                // console.log(JSON.stringify(json));
+                dispatch(recvPoilist(json));
+            });
     }
 }
