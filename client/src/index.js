@@ -14,8 +14,6 @@ import ReactDOM from 'react-dom'
 import Home from './js/com/Home'
 import Restaurant  from './js/com/Restaurant'
 import NotFound from './js/com/NotFound'
-import Map from './js/com/page/PassengerFlowMapProv'
-import MapCity from './js/com/page/PassengerFlowMapCity'
 
 ReactDOM.render(
     <Provider store={store}>

@@ -1,0 +1,14 @@
+.user-logo {
+    width: 40px;
+    height: 40px;
+    float: left;
+    border-radius: 50%;
+    background-image: url(http://xs01.meituan.net/waimai_web/img/user-default.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.comment{
+    padding: 25px 20px;
+    border-bottom: 1px solid #e5e5e5;
+}

@@ -28,8 +28,8 @@ class Restaurant extends React.Component {
         tabs.push(<ResTab title={"食品安全档案"}/>);
 
         var contents = [];
-        contents.push(<FoodList/>);
         contents.push(<CommentList/>);
+        contents.push(<FoodList/>);
         contents.push(<RestQualification/>);
 
         return <div>
