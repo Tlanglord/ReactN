@@ -1,4 +1,4 @@
-.user-logo {
+.comment-user-logo {
     width: 40px;
     height: 40px;
     float: left;
@@ -8,7 +8,20 @@
     background-size: 100% 100%;
 }
 
-.comment{
+.comment-content {
+    margin-left: 60px;
+}
+
+.comment {
     padding: 25px 20px;
     border-bottom: 1px solid #e5e5e5;
+}
+
+.comment-reply {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.comment-span{
+    margin-right: 10px;
 }

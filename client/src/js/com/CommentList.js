@@ -10,7 +10,6 @@ export default class CommentList extends React.Component {
 
     render() {
 
-
         var comments = [];
         for (var i = 0; i < 20; i++) {
             comments.push(<Comment/>);

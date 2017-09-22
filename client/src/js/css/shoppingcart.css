@@ -1,0 +1,43 @@
+.shopping-cart{
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    margin-left: 189px;
+    width: 306px;
+    z-index: 100;
+    font-size: 14px;
+}
+
+.shopping-footer{
+    background-color: #333;
+    cursor: pointer;
+    z-index: 1;
+    position: relative;
+    height: 50px;
+}
+
+.shopping-go{
+    color: #333;
+    font-weight: 700;
+    padding: 0 23px;
+    display: none;
+    border: 0;
+    cursor: pointer;
+    border-radius: 0;
+    height: 50px;
+    line-height: 50px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.shopping-ready-pay{
+    background-color: #a0a0a0;
+    display: inline-block;
+    color: #fff;
+    padding: 0 15px;
+    border-radius: 0;
+    height: 50px;
+    line-height: 50px;
+    font-size: 16px;
+    text-align: center;
+}

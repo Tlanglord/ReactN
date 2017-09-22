@@ -10,6 +10,7 @@ import Tab from  './tab/Tab';
 import CommentList from './CommentList';
 import FoodList from './FoodList';
 import RestQualification from './RestQualification';
+import ShoppingCart from './ShoppingCart';
 
 class ResTab extends React.Component {
     render() {
@@ -28,8 +29,8 @@ class Restaurant extends React.Component {
         tabs.push(<ResTab title={"食品安全档案"}/>);
 
         var contents = [];
-        contents.push(<CommentList/>);
         contents.push(<FoodList/>);
+        contents.push(<CommentList/>);
         contents.push(<RestQualification/>);
 
         return <div>
@@ -38,6 +39,8 @@ class Restaurant extends React.Component {
                 <RestInfo/>
                 <Tab Tabs={tabs} Contents={contents} />
             </div>
+
+            <ShoppingCart/>
         </div>
     }
 }

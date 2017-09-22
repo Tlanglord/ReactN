@@ -10,7 +10,6 @@ export default class FoodAdapter extends React.Component {
 
     render() {
 
-
         var foods = [];
         for (var i = 0; i < 5; i++) {
             foods.push(<Food/>)

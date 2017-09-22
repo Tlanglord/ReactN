@@ -6,3 +6,23 @@
     border-bottom: 1px dashed #e5e5e5;
     overflow: hidden
 }
+
+.food-img-wrap {
+    margin: 20px auto 0;
+    height: 127px;
+    width: 170px;
+}
+
+.food-img {
+    width: 100%;
+    height: 100%;
+}
+
+.food-space{
+    width: 170px;
+    margin: 10px auto 0;
+}
+
+.food-span{
+    width: 100%;
+}
