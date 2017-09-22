@@ -14,6 +14,7 @@ import ReactDOM from 'react-dom'
 import Home from './js/com/Home'
 import Restaurant  from './js/com/Restaurant'
 import NotFound from './js/com/NotFound'
+import SearchLoc from './js/com/SearchLoc'
 
 ReactDOM.render(
     <Provider store={store}>
@@ -23,6 +24,7 @@ ReactDOM.render(
                 <Route path='/restaurant' component={Restaurant}/>
                 <Route path='/login' component={Login}/>
                 <Route path='/register' component={Register}/>
+                <Route path='/location' component={SearchLoc}/>
                 <Route component={NotFound}/>
             </Switch>
         </Router>

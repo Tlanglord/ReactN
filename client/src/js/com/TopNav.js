@@ -62,7 +62,7 @@ class TopNav extends React.Component {
                     <span className="fl ">
                         <span className="fl top-ml10 top-loc-bg ">望京，来广营</span>
                         <span className="fl top-dvd  top-loc-bg top-ml10">|</span>
-                        <span className="fl top-ml10  top-loc-bg top-addr-change">切换地址</span>
+                        <a href="/location"><span className="fl top-ml10  top-loc-bg top-addr-change">切换地址</span></a>
                     </span>
                 </div>
             </div>

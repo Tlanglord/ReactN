@@ -19,7 +19,6 @@ export default class ShoppingCart extends React.Component {
             </form>
         </div>
     }
-
 }
 
 
