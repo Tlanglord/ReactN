@@ -20,7 +20,7 @@ var apiconfig = require('./apiconfig/config');
 
 // view engine setup
 // app.set('views', path.join(__dirname, 'client/'));
-app.set('views', path.join(__dirname, '../client/view'));
+app.set('views', path.join(__dirname, '../client/'));
 app.set('view engine', 'html');
 app.engine('html', ejs.renderFile);
 app.use(express.static(path.join(__dirname, '../client')));

@@ -15,7 +15,7 @@ module.exports = {
     output: {
         path: __dirname + '/client/build/',
         filename: '[name].bundle.js',
-        // publicPath: 'http://localhost:3000/client/build/'
+        publicPath: 'http://localhost:3000/build/'
     },
     // devServer: {
     //     contentBase: './'
@@ -34,6 +34,10 @@ module.exports = {
             {
                 test: /\.css$/,
                 loader: 'style-loader!css-loader'
+            },
+            {
+                test: /\.(png|jpg)$/,
+                loader: 'url-loader?limit=8192&name=images/[hash:8].[name].[ext]'
             }
         ]
     },
@@ -51,9 +55,9 @@ module.exports = {
         //         comments: false,
         //     },
         // }),
-        new HtmlWebpackPlugin({
-            template: __dirname + "/client/view/index.html"//new 一个这个插件的实例，并传入相关的参数
-        }),
+        // new HtmlWebpackPlugin({
+        //     template: __dirname + "/client/index.html"//new 一个这个插件的实例，并传入相关的参数
+        // }),
         // new webpack.HotModuleReplacementPlugin()
     ]
 }

@@ -10,7 +10,7 @@ module.exports = {
     },
     // 入口文件输出配置
     output: {
-        path: __dirname+ '/client/build/',
+        path: __dirname + '/client/build/',
         filename: '[name].bundle.js'
     },
     module: {
@@ -27,6 +27,10 @@ module.exports = {
             {
                 test: /\.(css|less)$/,
                 loader: 'style-loader!css-loader!less-loader'
+            },
+            {
+                test: /\.(png|jpg)$/,
+                loader: 'url-loader?limit=8192&name=images/[hash:8].[name].[ext]'
             }
         ]
     },
