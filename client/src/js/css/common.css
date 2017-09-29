@@ -14,9 +14,10 @@ body {
     background-color: #F5F5F5;
 }
 
-ul{
+ul {
     list-style-type: none;
     display: block;
+    padding: 0px;
 }
 
 a {

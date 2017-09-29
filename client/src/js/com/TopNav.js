@@ -15,7 +15,6 @@ class TopNav extends React.Component {
         var loginDiv = ReactDOM.findDOMNode(this.refs.login_div);
         var logOutDiv = ReactDOM.findDOMNode(this.refs.logout_div);
         var userName = ReactDOM.findDOMNode(this.refs.user_name);
-        debugger
         if (login) {
             // loginDiv.className()
             loginDiv.className = "fl gone";
@@ -30,7 +29,6 @@ class TopNav extends React.Component {
     componentDidMount() {
         var token = CookieUtil.get("access_token");
         var isLogin = false;
-        debugger
         //typeof token === 'String' ||
         if (token != undefined && token != null && token != "") {
             isLogin = true;

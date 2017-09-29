@@ -11,6 +11,9 @@ var index = require('./routes/index');
 var ejs = require('ejs');
 var app = express();
 
+const easyMonitor = require('easy-monitor');
+easyMonitor('ReactN');
+
 var apiconfig = require('./apiconfig/config');
 
 // var webpack = require('webpack'),
@@ -35,6 +38,15 @@ app.use(session({
     secret: '1234567890', // 建议使用 128 个字符的随机字符串
     cookie: {maxAge: 60 * 1000}
 }));
+
+app.all('*', function(req, res, next) {
+    debugger
+    res.header("Access-Control-Allow-Origin", "*");
+    res.header('Access-Control-Allow-Methods', 'PUT, GET, POST, DELETE, OPTIONS');
+    res.header("Access-Control-Allow-Headers", "X-Requested-With");
+    res.header('Access-Control-Allow-Headers', 'Content-Type');
+    next();
+});
 apiconfig.config(app);
 app.use('*', index);
 

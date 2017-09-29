@@ -2,6 +2,7 @@
 .search-container {
     background-image: url(./../../img/searchbg.jpg);
 }
+
 .search {
     position: absolute;
     top: 37%;
@@ -72,4 +73,19 @@
     font-size: 16px;
     background-color: #ffd161;
     color: #333;
+}
+
+.loc-ul {
+    margin-left: 80px;
+    width: 520px;
+    background-color: #FFFFFF;
+    border-top: 1px solid #c2c2c2;
+}
+
+.loc-li-item {
+    width: 520px;
+    border-bottom: 1px solid #c2c2c2;
+    border-right: 1px solid #c2c2c2;
+    border-left: 1px solid #c2c2c2;
+    height: 60px;
 }
