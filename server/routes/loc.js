@@ -6,6 +6,7 @@ var path = require('path')
 var express = require('express');
 var router = express.Router();
 var fetch = require('node-fetch');
+var ResModel = require('../lib/ResModel');
 
 // {
 //     method: 'GET',
@@ -33,7 +34,11 @@ router.get('/api/search', function (req, res, next) {
         })
         .then(function (json) {
             console.log(json);
-            res.json(json);
+            var rm = new ResModel();
+            rm.setResCode(0);
+            rm.setResData(json);
+            rm.setResMsg("调用成功");
+            res.json(rm);
         })
         .catch(function (err) {
             console.log(err);
