@@ -6,6 +6,7 @@ var path = require('path')
 var express = require('express');
 var router = express.Router();
 var fetch = require('node-fetch');
+var ResModel = require('../lib/ResModel');
 
 // {
 //     method: 'GET',
@@ -22,7 +23,10 @@ function getClientIp(req) {
 };
 
 router.get('/api/search', function (req, res, next) {
-    fetch('http://api.map.baidu.com/location/ip?ak=7pAytQK4uAIzFge4gpuIRUs6nilfGDL9')
+    var params = "&query=" + encodeURIComponent(req.query.keyword) + "&region=" + encodeURIComponent(req.query.city);
+    var url = "http://api.map.baidu.com/place/v2/suggestion?" + params + "&city_limit=true&output=json&ak=XkqU0LoYUAL3eSA7FQbNYEYZGEdQ0z42";
+    console.log(url);
+    fetch(url)
         .then(function (res) {
             if (res.ok) {
                 return res.json();
@@ -33,7 +37,11 @@ router.get('/api/search', function (req, res, next) {
         })
         .then(function (json) {
             console.log(json);
-            res.json(json);
+            var model = new ResModel();
+            model.setResCode(0);
+            model.setResMsg("成功");
+            model.setResData(json.result);
+            res.json(model);
         })
         .catch(function (err) {
             console.log(err);

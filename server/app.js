@@ -11,9 +11,6 @@ var index = require('./routes/index');
 var ejs = require('ejs');
 var app = express();
 
-const easyMonitor = require('easy-monitor');
-easyMonitor('ReactN');
-
 var apiconfig = require('./apiconfig/config');
 
 // var webpack = require('webpack'),
@@ -40,7 +37,6 @@ app.use(session({
 }));
 
 app.all('*', function(req, res, next) {
-    debugger
     res.header("Access-Control-Allow-Origin", "*");
     res.header('Access-Control-Allow-Methods', 'PUT, GET, POST, DELETE, OPTIONS');
     res.header("Access-Control-Allow-Headers", "X-Requested-With");
