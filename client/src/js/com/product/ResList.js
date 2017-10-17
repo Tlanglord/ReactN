@@ -10,8 +10,8 @@
 import React, {Component} from "react" ;
 import {connect} from 'react-redux';
 import ResItem from "./ResItem"
-import {reqPoilist, fetchPoilist}from '../action/ResItemAction';
-import "../css/resList.css"
+import {reqPoilist, fetchPoilist}from '../../action/ResItemAction';
+import "../../css/resList.css"
 class ResList extends Component {
     componentDidMount() {
         const {dispatch} = this.props;

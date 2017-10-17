@@ -3,7 +3,7 @@
  */
 import React from 'react';
 import Food from './Food';
-import '../css/common.css'
+import '../../css/common.css'
 import '../css/foodadapter.css'
 
 export default class FoodAdapter extends React.Component {

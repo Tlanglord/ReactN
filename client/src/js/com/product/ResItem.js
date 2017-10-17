@@ -8,7 +8,7 @@
  *
  */
 import React, {Component} from 'react';
-import "../css/resItem.css";
+import "../../css/resItem.css";
 
 
 export default class ResItem extends Component {

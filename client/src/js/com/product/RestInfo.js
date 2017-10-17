@@ -4,7 +4,7 @@
 
 
 import React from "react";
-import "../css/restinfo.css";
+import "../../css/restinfo.css";
 import "../css/common.css";
 
 class RestInfo extends React.Component {

@@ -4,7 +4,7 @@
 import React from 'react'
 import TabWrap from "./TabWrap";
 import TabContent from "./TabContent";
-import '../../css/tab.css'
+import '../../../css/tab.css'
 
 export default class Tab extends React.Component {
 

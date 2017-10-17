@@ -3,7 +3,7 @@
  */
 import React from 'react';
 import ReactDOM from 'react-dom';
-import "../css/searchloc.css"
+import "../../css/searchloc.css"
 
 
 class LocItem extends React.Component {

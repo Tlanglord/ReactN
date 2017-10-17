@@ -2,7 +2,7 @@
  * Created by dongqiangqiang on 2017/7/3.
  */
 import React from "react";
-import '../css/comment.css'
+import '../../css/comment.css'
 import '../css/common.css'
 
 class Replay extends React.Component {
