@@ -76,11 +76,6 @@ router.get('/api/logout', function (req, res, next) {
 
 })
 
-var apiHedader = '/api/my/';
-var api_order = apiHedader + 'order/';
 
-router.get(api_order, function (req, res, next) {
-
-});
 
 module.exports = router;

@@ -14,12 +14,12 @@ var app = express();
 const easyMonitor = require('easy-monitor');
 easyMonitor('ReactN');
 
-var apiconfig = require('./config/ApiConfig');
+var apiconfig = require('./routes/apiconfig');
 
 // var webpack = require('webpack'),
 //     webpackDevMiddleware = require('webpack-dev-middleware'),
 //     webpackHotMiddleware = require('webpack-hot-middleware'),
-//     webpackDevConfig = require('./webpack.ApiConfig.js');
+//     webpackDevConfig = require('./webpack.apiconfig.js');
 
 // view engine setup
 // app.set('views', path.join(__dirname, 'client/'));
