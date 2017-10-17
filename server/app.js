@@ -11,12 +11,15 @@ var index = require('./routes/index');
 var ejs = require('ejs');
 var app = express();
 
-var apiconfig = require('./apiconfig/config');
+const easyMonitor = require('easy-monitor');
+easyMonitor('ReactN');
+
+var apiconfig = require('./routes/apiconfig');
 
 // var webpack = require('webpack'),
 //     webpackDevMiddleware = require('webpack-dev-middleware'),
 //     webpackHotMiddleware = require('webpack-hot-middleware'),
-//     webpackDevConfig = require('./webpack.config.js');
+//     webpackDevConfig = require('./webpack.apiconfig.js');
 
 // view engine setup
 // app.set('views', path.join(__dirname, 'client/'));
@@ -37,6 +40,7 @@ app.use(session({
 }));
 
 app.all('*', function(req, res, next) {
+    debugger
     res.header("Access-Control-Allow-Origin", "*");
     res.header('Access-Control-Allow-Methods', 'PUT, GET, POST, DELETE, OPTIONS');
     res.header("Access-Control-Allow-Headers", "X-Requested-With");

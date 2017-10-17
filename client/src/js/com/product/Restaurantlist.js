@@ -3,7 +3,7 @@
  */
 import React from "react";
 import Restaurant from './Restaurant';
-import '../css/restaurantlist.css'
+import '../../css/restaurantlist.css'
 
 class RestaurantList extends React.Component {
 

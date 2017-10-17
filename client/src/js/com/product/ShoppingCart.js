@@ -2,7 +2,7 @@
  * Created by dongqiangqiang on 2017/7/3.
  */
 import React from "react";
-import '../css/common.css'
+import '../../css/common.css'
 import '../css/shoppingcart.css'
 
 export default class ShoppingCart extends React.Component {

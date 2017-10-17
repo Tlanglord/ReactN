@@ -2,7 +2,7 @@
  * Created by dongqiangqiang on 2017/9/5.
  */
 import React from 'react'
-import '../css/login.css'
+import '../../css/login.css'
 import '../css/common.css'
 
 export default class Register extends React.Component {

@@ -34,7 +34,6 @@ router.post('/api/login', function (req, res, next) {
 
 });
 
-
 router.post('/api/register', function (req, res, next) {
     client.on('error', function (err) {
         console.log("err:" + err);
@@ -76,5 +75,7 @@ router.get('/api/logout', function (req, res, next) {
     })
 
 })
+
+
 
 module.exports = router;

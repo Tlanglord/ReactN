@@ -3,8 +3,8 @@
  */
 
 import React from 'react';
-import Footer from './footer';
-import ResList from "./ResList";
+import Footer from './product/Footer';
+import ResList from "./product/ResList";
 import TopNav from "./TopNav";
 import MiddleNav from "./MiddleNav";
 import 'whatwg-fetch';

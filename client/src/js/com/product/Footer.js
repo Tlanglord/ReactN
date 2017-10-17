@@ -4,7 +4,7 @@
 
 
 import React from 'react';
-import '../css/footer.css'
+import '../../css/footer.css'
 import '../css/common.css'
 
 class Footer extends React.Component {
