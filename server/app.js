@@ -11,8 +11,8 @@ var index = require('./routes/index');
 var ejs = require('ejs');
 var app = express();
 
-const easyMonitor = require('easy-monitor');
-easyMonitor('ReactN');
+// const easyMonitor = require('easy-monitor');
+// easyMonitor('ReactN');
 
 var apiconfig = require('./routes/apiconfig');
 

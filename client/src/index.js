@@ -7,14 +7,14 @@ import {Provider}from 'react-redux';
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
 import createBrowserHistory from 'history/createBrowserHistory'
 const history = createBrowserHistory();
-import Login from './js/com/my/Login'
-import Register from './js/com/my/Register'
+import Login from './js/com/my/login/Login'
+import Register from './js/com/my/register/Register'
 import store from './js/store/store';
 import ReactDOM from 'react-dom'
-import Home from './js/com/Home'
-import Restaurant  from './js/com/product/Restaurant'
-import NotFound from './js/com/common/NotFound'
-import SearchLoc from './js/com/loc/SearchLoc'
+import Home from './js/com/common/Home'
+import Restaurant  from './js/com/product/res/Restaurant'
+import NotFound from './js/com/ui/NotFound'
+import SearchLoc from './js/com/loc/search/SearchLoc'
 
 ReactDOM.render(
     <Provider store={store}>
