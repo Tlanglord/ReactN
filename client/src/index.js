@@ -51,6 +51,10 @@ class Bundle extends React.Component {
                 mod: mod.default ? mod.default : mod
             })
         })
+
+        function loader(mod) {
+            this.setState({mod: mod.default ? mod.default : mod})
+        }
     }
     render() {
         debugger
