@@ -6,12 +6,13 @@ var webpack = require('webpack');
 module.exports = {
     // 页面入口文件配置
     entry: {
-        'entry': './client/src/index.js'
+        'main': './client/src/index.js'
     },
     // 入口文件输出配置
     output: {
         path: __dirname + '/client/build/',
-        filename: '[name].bundle.js'
+        filename: '[name].bundle.js',
+		publicPath:'/'
     },
     module: {
         // 加载器配置

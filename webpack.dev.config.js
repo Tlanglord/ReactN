@@ -6,16 +6,18 @@ var HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
     // 页面入口文件配置
-    entry: [
+    entry: {
         // 'webpack/hot/poll?1000',
         // 'webpack/hot/dev-server',
-        './client/src/index.js'
-    ],
+       'main':[ './client/src/index.js'],
+        vendor: ['react']
+    },
     // 入口文件输出配置
     output: {
         path: __dirname + '/client/build/',
         filename: '[name].bundle.js',
-        publicPath: 'http://localhost:3000/build/'
+        publicPath: '/build/',
+        chunkFilename: '[name].js' //注意这里，用[name]可以自动生成路由名称对应的js文件
     },
     // devServer: {
     //     contentBase: './'
@@ -55,9 +57,13 @@ module.exports = {
         //         comments: false,
         //     },
         // }),
-        // new HtmlWebpackPlugin({
-        //     template: __dirname + "/client/index.html"//new 一个这个插件的实例，并传入相关的参数
-        // }),
-        // new webpack.HotModuleReplacementPlugin()
+        new webpack.optimize.CommonsChunkPlugin({
+            names: ['vendor'],
+            filename: 'vendor.js'
+        }),
+        new HtmlWebpackPlugin({
+            template: __dirname + "/client/index.html"//new 一个这个插件的实例，并传入相关的参数
+        }),
+
     ]
 }

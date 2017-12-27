@@ -22,7 +22,7 @@ var apiconfig = require('./routes/apiconfig');
 //     webpackDevConfig = require('./webpack.apiconfig.js');
 
 // view engine setup
-// app.set('views', path.join(__dirname, 'client/'));
+// app.set('views', path.join(__dirname, 'client/build'));
 app.set('views', path.join(__dirname, '../client/'));
 app.set('view engine', 'html');
 app.engine('html', ejs.renderFile);

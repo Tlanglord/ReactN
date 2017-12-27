@@ -4,7 +4,7 @@
 
 import React from 'react';
 import ReactDOM from 'react-dom';
-import {Router, Route, hashHistory} from 'react-router';
+import {Link} from 'react-router-dom';
 import CookieUtil from '../../uitls/CookieUtil'
 import './css/topnav.css'
 import '../css/common.css'
@@ -44,7 +44,8 @@ class TopNav extends React.Component {
                     <div className="fl" ref="login_div">
                         <a className="fl" href="/register">注册</a>
                         <span className="fl top-login-dvd">|</span>
-                        <a className="fl" href="/login">登录</a>
+                        //<a className="fl" href="/login">登录</a>
+						<Link to="/login">登录</Link>
                     </div>
                     <div className="fl gone" ref="logout_div">
                         <a href="/api/logout">退出</a>
