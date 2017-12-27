@@ -19,14 +19,16 @@ import LazyLogin  from "bundle-loader?lazy&name=[name]!./js/com/my/login/Login";
 
 class Bundle extends React.Component {
 
-    constructor(props){
+    constructor(props) {
         super(props);
-        this.state ={
+        this.state = {
             // short for "module" but that's a keyword in js, so "mod"
             mod: null
         }
     }
+
     componentWillMount() {
+        console.log("props.load componentWillMount");
         this.load(this.props)
     }
 
@@ -37,26 +39,46 @@ class Bundle extends React.Component {
     }
 
     load(props) {
+        debugger
         this.setState({
             mod: null
         })
         props.load((mod) => {
+            debugger
+            console.log("props.load"+ mod);
             this.setState({
                 // handle both es imports and cjs
                 mod: mod.default ? mod.default : mod
             })
         })
     }
-
     render() {
+        debugger
+        console.log("props.load render");
         return this.state.mod ? this.props.children(this.state.mod) : null
     }
-};
+}
 
 
-const Login = (props) => (
+const Dashboard = (props) => (
+    <Bundle load={loadDashboard}>
+        {(Dashboard) => <Dashboard {...props}/>}
+    </Bundle>
+)
+
+const Dash = function (props) {
+    return <Bundle load={LazyLogin}>
+        {
+            function (Com) {
+                return <Com {...props}/>
+            }
+        }
+    </Bundle>
+}
+
+const LoginA = (props) => (
     <Bundle load={LazyLogin}>
-        {(Login) => <Login {...props}/>}
+        {(B) => <B {...props}/>}
     </Bundle>
 )
 
@@ -66,7 +88,7 @@ ReactDOM.render(
             <switch>
                 <Route exact path='/' component={Home}/>
                 <Route path='/restaurant' component={Restaurant}/>
-                <Route path='/login' component={Login} />
+                <Route path='/login' component={Dash} />
                 <Route path='/register' component={Register}/>
                 <Route path='/location' component={SearchLoc}/>
                 <Route component={NotFound}/>
