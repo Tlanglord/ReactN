@@ -10,7 +10,7 @@ module.exports = {
         // 'webpack/hot/poll?1000',
         // 'webpack/hot/dev-server',
        'main':[ './client/src/index.js'],
-        vendor: ['react']
+        'vendor': ['react']
     },
     // 入口文件输出配置
     output: {
@@ -57,13 +57,16 @@ module.exports = {
         //         comments: false,
         //     },
         // }),
+        new webpack.DefinePlugin({
+            'process.env.NODE_ENV': JSON.stringify('development')
+        }),
         new webpack.optimize.CommonsChunkPlugin({
             names: ['vendor'],
             filename: 'vendor.js'
         }),
         new HtmlWebpackPlugin({
-            template: __dirname + "/client/index.html"//new 一个这个插件的实例，并传入相关的参数
+            filenae: 'index.html',
+            template: __dirname + "/client/template.html"//new 一个这个插件的实例，并传入相关的参数
         }),
-
     ]
 }

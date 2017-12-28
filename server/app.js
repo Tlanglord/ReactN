@@ -22,11 +22,12 @@ var apiconfig = require('./routes/apiconfig');
 //     webpackDevConfig = require('./webpack.apiconfig.js');
 
 // view engine setup
-// app.set('views', path.join(__dirname, 'client/build'));
+// app.set('views', path.join(__dirname, 'client/'));
+console.log(path.join(__dirname, '../client/'))
 app.set('views', path.join(__dirname, '../client/'));
 app.set('view engine', 'html');
 app.engine('html', ejs.renderFile);
-app.use(express.static(path.join(__dirname, '../client')));
+app.use(express.static(path.join(__dirname, '../client/')));
 
 // uncomment after placing your favicon in /public
 //app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')));

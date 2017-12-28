@@ -60,6 +60,7 @@ class Bundle extends React.Component {
         props.load(loader);
         // prop.load(loader(mod))
     }
+
     render() {
         console.log("props.load render");
         return this.state.mod ? this.props.children(this.state.mod) : null
@@ -92,14 +93,14 @@ const LoginA = (props) => (
 ReactDOM.render(
     <Provider store={store}>
         <Router>
-            <switch>
+            <Switch>
                 <Route exact path='/' component={Home}/>
                 <Route path='/restaurant' component={Restaurant}/>
-                <Route path='/login' component={Dash} />
+                <Route path='/login' component={Dash}/>
                 <Route path='/register' component={Register}/>
                 <Route path='/location' component={SearchLoc}/>
                 <Route component={NotFound}/>
-            </switch>
+            </Switch>
         </Router>
     </Provider>,
     document.getElementById('app'));
