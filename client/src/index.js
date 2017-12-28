@@ -39,25 +39,28 @@ class Bundle extends React.Component {
     }
 
     load(props) {
-        debugger
+
+        var that = this;
         this.setState({
             mod: null
         })
-        props.load((mod) => {
-            debugger
-            console.log("props.load"+ mod);
-            this.setState({
-                // handle both es imports and cjs
-                mod: mod.default ? mod.default : mod
-            })
-        })
+        // props.load((mod) => {
+        //     debugger
+        //     console.log("props.load"+ mod);
+        //     this.setState({
+        //         // handle both es imports and cjs
+        //         mod: mod.default ? mod.default : mod
+        //     })
+        // })
 
         function loader(mod) {
-            this.setState({mod: mod.default ? mod.default : mod})
+            that.setState({mod: mod.default ? mod.default : mod})
         }
+
+        props.load(loader);
+        // prop.load(loader(mod))
     }
     render() {
-        debugger
         console.log("props.load render");
         return this.state.mod ? this.props.children(this.state.mod) : null
     }
